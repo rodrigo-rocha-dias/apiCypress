@@ -14,9 +14,14 @@ module.exports = defineConfig({
   videosFolder: 'cypress/videos',
   downloadsFolder: 'cypress/downloads',
   trashAssetsBeforeRuns: true,
-  reporter: 'junit',
+  reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
-    mochaFile: 'cypress/reports/xml/[hash].xml',
+    reportDir: 'cypress/reports',
+    overwrite: false,
+    html: true,
+    json: true,
+    timestamp: 'mmddyyyy_HHMMss',
+    mochaFile: 'cypress/reports/xml/[hash].xml', 
   },
   retries: {
     runMode: 0,
@@ -24,7 +29,8 @@ module.exports = defineConfig({
   },
   e2e: {
     setupNodeEvents(on, config) {
-      require('./cypress/plugins/index.js')(on, config)
+      require('cypress-mochawesome-reporter/plugin')(on); 
+      require('./cypress/plugins/index.js')(on, config);
     },
     specPattern: 'cypress/integration/**/*.feature',
     slowTestThreshold: 10000,

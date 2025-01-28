@@ -30,32 +30,297 @@
         "steps": [
           {
             "arguments": [],
-            "keyword": "When ",
-            "line": 6,
+            "keyword": "Given ",
+            "line": 5,
             "name": "fizer uma consulta de todas as racas",
             "result": {
               "status": "passed",
-              "duration": 587000000
+              "duration": 650000000
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 7,
+            "keyword": "When ",
+            "line": 6,
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 41000000
+              "duration": 23000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
+            "line": 7,
             "name": "sera retornado consulta com sucesso",
             "result": {
               "status": "passed",
-              "duration": 47000000
+              "duration": 26000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "dogapi---breeds;listar-imagens-de-raça-affenpinscher",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Listar imagens de raça affenpinscher",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 9
+          },
+          {
+            "name": "@dogApi",
+            "line": 9
+          },
+          {
+            "name": "@breeds",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "fizer uma consulta de imagem da raca \"affenpinscher\"",
+            "result": {
+              "status": "passed",
+              "duration": 368000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "sera retornado imagem da raca \"affenpinscher\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 335000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "dogapi---breeds;listar-imagens-de-raça-african",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Listar imagens de raça african",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 9
+          },
+          {
+            "name": "@dogApi",
+            "line": 9
+          },
+          {
+            "name": "@breeds",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "fizer uma consulta de imagem da raca \"african\"",
+            "result": {
+              "status": "passed",
+              "duration": 343000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "sera retornado imagem da raca \"african\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 401000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "dogapi---breeds;listar-imagens-de-raça-airedale",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Listar imagens de raça airedale",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 9
+          },
+          {
+            "name": "@dogApi",
+            "line": 9
+          },
+          {
+            "name": "@breeds",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "fizer uma consulta de imagem da raca \"airedale\"",
+            "result": {
+              "status": "passed",
+              "duration": 370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "sera retornado imagem da raca \"airedale\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 445000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "dogapi---breeds;listar-imagens-de-raça---falha-(raça-inexistente)",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Listar imagens de raça - Falha (raça inexistente)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 21
+          },
+          {
+            "name": "@dogApi",
+            "line": 21
+          },
+          {
+            "name": "@breeds",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "fizer uma consulta de imagem da raca \"PITBULL\"",
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "obter o codigo de resposta \"404\"",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "sera retornado mensagem \"Breed not found (master breed does not exist)\"",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "dogapi---breeds;listar-imagens-de-raça-randomica",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Listar imagens de raça randomica",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 27
+          },
+          {
+            "name": "@dogApi",
+            "line": 27
+          },
+          {
+            "name": "@breeds",
+            "line": 27
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "fizer uma consulta de racas randomica",
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "sera retornado consulta randomica com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
             }
           }
         ]
