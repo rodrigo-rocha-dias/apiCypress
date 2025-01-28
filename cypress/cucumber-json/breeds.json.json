@@ -1,0 +1,65 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "DogApi - Breeds",
+    "line": 1,
+    "id": "dogapi---breeds",
+    "tags": [],
+    "uri": "breeds.feature",
+    "elements": [
+      {
+        "id": "dogapi---breeds;listar-todas-raças",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Listar todas raças",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 3
+          },
+          {
+            "name": "@dogApi",
+            "line": 3
+          },
+          {
+            "name": "@breeds",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "fizer uma consulta de todas as racas",
+            "result": {
+              "status": "passed",
+              "duration": 587000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "sera retornado consulta com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
