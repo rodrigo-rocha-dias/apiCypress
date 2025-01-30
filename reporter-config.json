@@ -1,0 +1,9 @@
+{
+    "reporterEnabled": "cucumber-json-report",
+    "cucumberJsonReporter": {
+      "jsonDir": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".json"
+    }
+  }
+  
