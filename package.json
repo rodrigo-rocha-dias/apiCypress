@@ -9,19 +9,17 @@
     "test_cypress:regressivo": "./node_modules/.bin/cypress-tags run -e TAGS=\"@regressivo\"",
     "pretest": "rm -rf cypress/reports",
     "test": "cypress run",
-    "posttest": "node cucumber-html-report.js",
-    "generate-report": "node cucumber-html-report.js"
+    "posttest": "node cucumber-html-report.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@cucumber/cucumber": "^11.2.0",
-    "cucumber-html-reporter": "^5.5.1",
+    "cucumber": "6.0.0",
+    "cucumber-html-reporter": "^5.5.0",
     "cypress": "^14.0.0",
-    "cypress-cucumber-preprocessor": "^4.3.1",
-    "cypress-multi-reporters": "^1.6.4"
+    "cypress-cucumber-preprocessor": "^4.3.1"
   },
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/support/steps",

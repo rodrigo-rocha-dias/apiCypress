@@ -8,10 +8,11 @@ module.exports = defineConfig({
   requestTimeout: 5000,
   responseTimeout: 30000,
   video: false,
-  screenshotOnRunFailure: true,
+  screenshotOnRunFailure: true, 
+  screenshotsFolder: 'screenshots',
   reporter: 'cypress-multi-reporters',
   reporterOptions: {
-    configFile: 'reporter-config.json'
+    configFile: 'reporter-config.json',
   },
   e2e: {
     setupNodeEvents(on, config) {
@@ -19,5 +20,5 @@ module.exports = defineConfig({
       return config;
     },
     specPattern: 'cypress/integration/**/*.feature',
-  }
+  },
 });
