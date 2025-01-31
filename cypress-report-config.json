@@ -1,0 +1,6 @@
+{
+    "reporterEnabled": "cucumber-json",
+    "cucumberJsonReporterOptions": {
+        "output": "cypress/reports/cucumber-json/report.json"
+    }
+}
