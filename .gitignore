@@ -48,9 +48,11 @@ reports/*
 cypress/downloads
 cypress/downloads/
 cypress/downloads*
-cypress/cucumber-json/*
-cypress/cucumber-json/.json
+# cypress/cucumber-json/*
+# cypress/cucumber-json/.json
 
 # Cypress logs
 cypress/logs/*
 cypress/logs/.json
+
+!cypress/cucumber-html-report.js
