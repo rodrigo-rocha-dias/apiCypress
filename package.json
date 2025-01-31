@@ -7,9 +7,9 @@
     "cy:run": "cypress run",
     "test_cypress": "cypress run --spec \"**/*.feature\"",
     "test_cypress:regressivo": "./node_modules/.bin/cypress-tags run -e TAGS=\"@regressivo\"",
-    "pretest": "rm -rf cypress/reports",
+    "pretest": "rm -rf cypress/reports/cucumber-json",
     "test": "cypress run",
-    "posttest": "node cucumber-html-report.js"
+    "posttest": "node cypress/reports/cucumber-html-report.js"
   },
   "keywords": [],
   "author": "",
@@ -26,7 +26,7 @@
     "step_definitions": "cypress/support/steps",
     "cucumberJson": {
       "generate": true,
-      "outputFolder": "cypress/cucumber-json",
+      "outputFolder": "cypress/reports/cucumber-json",
       "filePrefix": "",
       "fileSuffix": ".json"
     }
