@@ -35,7 +35,7 @@
             "name": "fizer uma consulta de todas as racas",
             "result": {
               "status": "passed",
-              "duration": 621000000
+              "duration": 684000000
             }
           },
           {
@@ -45,7 +45,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 14000000
             }
           },
           {
@@ -88,7 +88,7 @@
             "name": "fizer uma consulta de imagem da raca \"affenpinscher\"",
             "result": {
               "status": "passed",
-              "duration": 293000000
+              "duration": 303000000
             }
           },
           {
@@ -98,7 +98,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 7000000
             }
           },
           {
@@ -108,7 +108,7 @@
             "name": "sera retornado imagem da raca \"affenpinscher\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 228000000
+              "duration": 322000000
             }
           }
         ]
@@ -141,7 +141,7 @@
             "name": "fizer uma consulta de imagem da raca \"african\"",
             "result": {
               "status": "passed",
-              "duration": 285000000
+              "duration": 319000000
             }
           },
           {
@@ -151,7 +151,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 6000000
             }
           },
           {
@@ -161,7 +161,7 @@
             "name": "sera retornado imagem da raca \"african\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 280000000
+              "duration": 361000000
             }
           }
         ]
@@ -194,7 +194,7 @@
             "name": "fizer uma consulta de imagem da raca \"airedale\"",
             "result": {
               "status": "passed",
-              "duration": 316000000
+              "duration": 309000000
             }
           },
           {
@@ -204,7 +204,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 5000000
             }
           },
           {
@@ -214,7 +214,7 @@
             "name": "sera retornado imagem da raca \"airedale\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 299000000
+              "duration": 457000000
             }
           }
         ]
@@ -247,7 +247,7 @@
             "name": "fizer uma consulta de imagem da raca \"PITBULL\"",
             "result": {
               "status": "passed",
-              "duration": 264000000
+              "duration": 280000000
             }
           },
           {
@@ -257,7 +257,7 @@
             "name": "obter o codigo de resposta \"404\"",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 6000000
             }
           },
           {
@@ -267,7 +267,7 @@
             "name": "sera retornado mensagem \"Breed not found (master breed does not exist)\"",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 5000000
             }
           }
         ]
@@ -300,7 +300,7 @@
             "name": "fizer uma consulta de racas randomica",
             "result": {
               "status": "passed",
-              "duration": 279000000
+              "duration": 269000000
             }
           },
           {
@@ -310,7 +310,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 4000000
             }
           },
           {

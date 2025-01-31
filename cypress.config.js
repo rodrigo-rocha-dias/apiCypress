@@ -7,9 +7,9 @@ module.exports = defineConfig({
   defaultCommandTimeout: 15000,
   requestTimeout: 5000,
   responseTimeout: 30000,
-  video: false,  // Desativar gravação de vídeo
-  screenshotOnRunFailure: true,  // Habilitar captura de screenshots em falhas
-  screenshotsFolder: 'screenshots',  // Diretório para salvar screenshots
+  video: false,
+  screenshotOnRunFailure: true,
+  screenshotsFolder: 'screenshots',
   reporter: 'cypress-multi-reporters',
   reporterOptions: {
     configFile: 'reporter-config.json',
@@ -21,4 +21,10 @@ module.exports = defineConfig({
     },
     specPattern: 'cypress/integration/**/*.feature',
   },
+  cucumberJson: {
+    generate: true,
+    outputFolder: 'cypress/reports/cucumber-json',
+    filePrefix: '',
+    fileSuffix: '.json'
+  }
 });
