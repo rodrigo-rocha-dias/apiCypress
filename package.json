@@ -6,7 +6,7 @@
     "cypress:open": "cypress open",
     "cy:run": "cypress run",
     "test_cypress": "cypress run --spec \"**/*.feature\"",
-    "test_cypress:regressivo": "./node_modules/.bin/cypress-tags run -e TAGS=\"@regressivo\"",
+    "test_cypress:regressivo": "npx cypress run --env grepTags='@regressivo'",
     "pretest": "rm -rf cypress/reports",
     "test": "cypress run",
     "posttest": "node cypress/reports/cucumber-html-report.js"
@@ -16,7 +16,10 @@
     "cucumber-html-reporter": "^5.5.1",
     "cypress": "^14.0.0",
     "cypress-cucumber-preprocessor": "^4.3.1",
-    "cypress-multi-reporters": "^1.5.0"
+    "cypress-grep": "^3.0.4",
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-tags": "^1.2.2",
+    "typescript": "^5.7.3"
   },
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/support/steps",

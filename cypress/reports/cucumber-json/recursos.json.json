@@ -35,7 +35,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\"",
             "result": {
               "status": "passed",
-              "duration": 305000000
+              "duration": 389000000
             }
           },
           {
@@ -45,7 +45,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 49000000
             }
           },
           {
@@ -55,7 +55,7 @@
             "name": "sera retornado recurso com titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 38000000
             }
           }
         ]
@@ -88,7 +88,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\"",
             "result": {
               "status": "passed",
-              "duration": 238000000
+              "duration": 254000000
             }
           },
           {
@@ -98,7 +98,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 25000000
+              "duration": 12000000
             }
           },
           {
@@ -108,7 +108,7 @@
             "name": "sera retornado recurso com titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 30000000
+              "duration": 22000000
             }
           }
         ]
@@ -141,7 +141,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 3\" corpo \"\" e usuarioId \"3\"",
             "result": {
               "status": "passed",
-              "duration": 252000000
+              "duration": 213000000
             }
           },
           {
@@ -151,7 +151,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 22000000
             }
           },
           {
@@ -194,7 +194,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\"",
             "result": {
               "status": "passed",
-              "duration": 228000000
+              "duration": 216000000
             }
           },
           {
@@ -204,7 +204,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 25000000
             }
           },
           {
@@ -214,7 +214,7 @@
             "name": "sera retornado recurso com titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 21000000
+              "duration": 25000000
             }
           }
         ]
@@ -247,7 +247,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\"",
             "result": {
               "status": "passed",
-              "duration": 257000000
+              "duration": 200000000
             }
           },
           {
@@ -257,7 +257,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 20000000
+              "duration": 15000000
             }
           },
           {
@@ -267,7 +267,7 @@
             "name": "sera retornado recurso com titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 20000000
             }
           }
         ]
@@ -300,7 +300,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\"",
             "result": {
               "status": "passed",
-              "duration": 299000000
+              "duration": 216000000
             }
           },
           {
@@ -310,7 +310,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 12000000
             }
           },
           {
@@ -320,7 +320,7 @@
             "name": "sera retornado recurso com titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 23000000
+              "duration": 18000000
             }
           }
         ]
@@ -353,7 +353,7 @@
             "name": "fizer consulta de recurso por id \"\"",
             "result": {
               "status": "passed",
-              "duration": 142000000
+              "duration": 129000000
             }
           },
           {
@@ -363,7 +363,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 9000000
             }
           }
         ]
@@ -396,7 +396,7 @@
             "name": "fizer consulta de recurso por id \"11111111111111111111111111111111\"",
             "result": {
               "status": "passed",
-              "duration": 129000000
+              "duration": 80000000
             }
           },
           {
@@ -406,7 +406,7 @@
             "name": "obter o codigo de resposta \"404\"",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 8000000
             }
           }
         ]
