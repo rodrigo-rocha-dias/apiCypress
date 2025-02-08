@@ -1,0 +1,98 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Placeholder - Recursos",
+    "line": 1,
+    "id": "placeholder---recursos",
+    "tags": [],
+    "uri": "recursos.feature",
+    "elements": [
+      {
+        "id": "placeholder---recursos;buscar-recurso-por-id",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Buscar recurso por ID",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 31
+          },
+          {
+            "name": "@placeholder",
+            "line": 31
+          },
+          {
+            "name": "@recursos",
+            "line": 31
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "fizer consulta de recurso por id \"\"",
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;buscar-recurso-por-id---falha-(id-inexistente)",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Buscar recurso por ID - Falha (ID inexistente)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 24
+          },
+          {
+            "name": "@placeholder",
+            "line": 24
+          },
+          {
+            "name": "@recursos",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "fizer consulta de recurso por id \"11111111111111111111111111111111\"",
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "obter o codigo de resposta \"404\"",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
