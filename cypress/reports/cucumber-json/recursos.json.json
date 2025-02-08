@@ -8,6 +8,324 @@
     "uri": "recursos.feature",
     "elements": [
       {
+        "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-1)-corpo-(teste-corpo-1)-usuarioid-(1)",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Criar um novo recurso com o titulo (Teste Titulo 1) corpo (Teste Corpo 1) usuarioId (1)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 3
+          },
+          {
+            "name": "@placeholder",
+            "line": 3
+          },
+          {
+            "name": "@recursos",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\"",
+            "result": {
+              "status": "passed",
+              "duration": 305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "obter o codigo de resposta \"201\"",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "sera retornado recurso com titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-()-corpo-(teste-corpo-2)-usuarioid-(2)",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Criar um novo recurso com o titulo () corpo (Teste Corpo 2) usuarioId (2)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 3
+          },
+          {
+            "name": "@placeholder",
+            "line": 3
+          },
+          {
+            "name": "@recursos",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que faca a criacao de um novo recurso titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\"",
+            "result": {
+              "status": "passed",
+              "duration": 238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "obter o codigo de resposta \"201\"",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "sera retornado recurso com titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-3)-corpo-()-usuarioid-(3)",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Criar um novo recurso com o titulo (Teste Titulo 3) corpo () usuarioId (3)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 3
+          },
+          {
+            "name": "@placeholder",
+            "line": 3
+          },
+          {
+            "name": "@recursos",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 3\" corpo \"\" e usuarioId \"3\"",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "obter o codigo de resposta \"201\"",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "sera retornado recurso com titulo \"Teste Titulo 3\" corpo \"\" e usuarioId \"3\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-4)-corpo-(teste-corpo-4)-usuarioid-()",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Criar um novo recurso com o titulo (Teste Titulo 4) corpo (Teste Corpo 4) usuarioId ()",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 3
+          },
+          {
+            "name": "@placeholder",
+            "line": 3
+          },
+          {
+            "name": "@recursos",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\"",
+            "result": {
+              "status": "passed",
+              "duration": 228000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "obter o codigo de resposta \"201\"",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "sera retornado recurso com titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-5)-corpo-(teste-corpo-5)-usuarioid-(0)",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Criar um novo recurso com o titulo (Teste Titulo 5) corpo (Teste Corpo 5) usuarioId (0)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 3
+          },
+          {
+            "name": "@placeholder",
+            "line": 3
+          },
+          {
+            "name": "@recursos",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\"",
+            "result": {
+              "status": "passed",
+              "duration": 257000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "obter o codigo de resposta \"201\"",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "sera retornado recurso com titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-6)-corpo-(teste-corpo-6)-usuarioid-(1234567891011121314abc)",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Criar um novo recurso com o titulo (Teste Titulo 6) corpo (Teste Corpo 6) usuarioId (1234567891011121314ABC)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 3
+          },
+          {
+            "name": "@placeholder",
+            "line": 3
+          },
+          {
+            "name": "@recursos",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\"",
+            "result": {
+              "status": "passed",
+              "duration": 299000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "obter o codigo de resposta \"201\"",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "sera retornado recurso com titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      },
+      {
         "id": "placeholder---recursos;buscar-recurso-por-id",
         "keyword": "Scenario",
         "line": 32,
@@ -35,7 +353,7 @@
             "name": "fizer consulta de recurso por id \"\"",
             "result": {
               "status": "passed",
-              "duration": 130000000
+              "duration": 142000000
             }
           },
           {
@@ -45,7 +363,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 13000000
             }
           }
         ]
@@ -78,7 +396,7 @@
             "name": "fizer consulta de recurso por id \"11111111111111111111111111111111\"",
             "result": {
               "status": "passed",
-              "duration": 185000000
+              "duration": 129000000
             }
           },
           {
@@ -88,7 +406,7 @@
             "name": "obter o codigo de resposta \"404\"",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 12000000
             }
           }
         ]
