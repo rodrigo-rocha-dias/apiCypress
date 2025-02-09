@@ -1,12 +1,10 @@
-name: CI Pipeline
+name: Test API
 
 on:
   push:
     branches:
       - main
   pull_request:
-    branches:
-      - main
 
 jobs:
   test-api:
@@ -24,16 +22,12 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Run API tests
-        run: npm run cypress:run:tags
-        env:
-          PARCEIRO: placeholder
-          AMBIENTE: hml
-          grepTags: "@recursos"
+      - name: Fix Cypress permissions
+        run: |
+          npx cypress install
+          chmod +x node_modules/.bin/cypress
 
-      - name: Upload screenshots on failure
-        uses: actions/upload-artifact@v2
-        if: failure()
-        with:
-          name: cypress-screenshots
-          path: cypress/screenshots
+      - name: Run API tests
+        run: |
+          echo "Ambiente: hml"
+          npx cypress run --env ambiente=hml

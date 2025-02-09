@@ -35,9 +35,8 @@
             "line": 14,
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\"",
             "result": {
-              "status": "failed",
-              "duration": 678000000,
-              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+              "status": "passed",
+              "duration": 663000000
             }
           },
           {
@@ -46,7 +45,8 @@
             "line": 15,
             "name": "obter o codigo de resposta \"201\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 20000000
             }
           },
           {
@@ -55,7 +55,8 @@
             "line": 16,
             "name": "sera retornado recurso com titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\" com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 21000000
             }
           }
         ]
@@ -87,8 +88,8 @@
             "line": 14,
             "name": "que faca a criacao de um novo recurso titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\"",
             "result": {
-              "status": "failed",
-              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+              "status": "passed",
+              "duration": 264000000
             }
           },
           {
@@ -97,7 +98,8 @@
             "line": 15,
             "name": "obter o codigo de resposta \"201\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 13000000
             }
           },
           {
@@ -106,7 +108,8 @@
             "line": 16,
             "name": "sera retornado recurso com titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\" com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 21000000
             }
           }
         ]
@@ -138,8 +141,8 @@
             "line": 14,
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 3\" corpo \"\" e usuarioId \"3\"",
             "result": {
-              "status": "failed",
-              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+              "status": "passed",
+              "duration": 221000000
             }
           },
           {
@@ -148,7 +151,8 @@
             "line": 15,
             "name": "obter o codigo de resposta \"201\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 11000000
             }
           },
           {
@@ -157,7 +161,8 @@
             "line": 16,
             "name": "sera retornado recurso com titulo \"Teste Titulo 3\" corpo \"\" e usuarioId \"3\" com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 14000000
             }
           }
         ]
@@ -189,8 +194,8 @@
             "line": 14,
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\"",
             "result": {
-              "status": "failed",
-              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+              "status": "passed",
+              "duration": 214000000
             }
           },
           {
@@ -199,7 +204,8 @@
             "line": 15,
             "name": "obter o codigo de resposta \"201\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 10000000
             }
           },
           {
@@ -208,7 +214,8 @@
             "line": 16,
             "name": "sera retornado recurso com titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\" com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 12000000
             }
           }
         ]
@@ -240,8 +247,8 @@
             "line": 14,
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\"",
             "result": {
-              "status": "failed",
-              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+              "status": "passed",
+              "duration": 230000000
             }
           },
           {
@@ -250,7 +257,8 @@
             "line": 15,
             "name": "obter o codigo de resposta \"201\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 12000000
             }
           },
           {
@@ -259,7 +267,8 @@
             "line": 16,
             "name": "sera retornado recurso com titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\" com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 19000000
             }
           }
         ]
@@ -291,8 +300,8 @@
             "line": 14,
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\"",
             "result": {
-              "status": "failed",
-              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+              "status": "passed",
+              "duration": 221000000
             }
           },
           {
@@ -301,7 +310,8 @@
             "line": 15,
             "name": "obter o codigo de resposta \"201\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 15000000
             }
           },
           {
@@ -310,7 +320,8 @@
             "line": 16,
             "name": "sera retornado recurso com titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\" com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 18000000
             }
           }
         ]
@@ -342,8 +353,8 @@
             "line": 42,
             "name": "fizer consulta de recurso por id \"\"",
             "result": {
-              "status": "failed",
-              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+              "status": "passed",
+              "duration": 525000000
             }
           },
           {
@@ -352,7 +363,8 @@
             "line": 43,
             "name": "obter o codigo de resposta \"200\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 17000000
             }
           }
         ]
@@ -384,8 +396,8 @@
             "line": 35,
             "name": "fizer consulta de recurso por id \"11111111111111111111111111111111\"",
             "result": {
-              "status": "failed",
-              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+              "status": "passed",
+              "duration": 446000000
             }
           },
           {
@@ -394,7 +406,8 @@
             "line": 36,
             "name": "obter o codigo de resposta \"404\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 16000000
             }
           }
         ]
@@ -426,8 +439,8 @@
             "line": 48,
             "name": "que faca a atualizacao do recurso por id \"1\"",
             "result": {
-              "status": "failed",
-              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+              "status": "passed",
+              "duration": 455000000
             }
           },
           {
@@ -436,7 +449,8 @@
             "line": 49,
             "name": "obter o codigo de resposta \"200\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 14000000
             }
           },
           {
@@ -445,7 +459,8 @@
             "line": 50,
             "name": "sera consultado pelo id \"1\" e sera atualizado o recurso \"1\" com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 386000000
             }
           }
         ]
@@ -477,8 +492,8 @@
             "line": 54,
             "name": "que faca a atualizacao do recurso por id \"2222\"",
             "result": {
-              "status": "failed",
-              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+              "status": "passed",
+              "duration": 476000000
             }
           },
           {
@@ -487,7 +502,8 @@
             "line": 55,
             "name": "obter o codigo de resposta \"500\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 16000000
             }
           },
           {
@@ -496,7 +512,8 @@
             "line": 56,
             "name": "sera retornado mensagem no response \"TypeError: Cannot read properties of undefined\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 16000000
             }
           }
         ]
@@ -528,8 +545,8 @@
             "line": 60,
             "name": "que faca a atualizacao do recurso por id \"11111111111111111111111111111111111111111111111111111111111111\"",
             "result": {
-              "status": "failed",
-              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+              "status": "passed",
+              "duration": 437000000
             }
           },
           {
@@ -538,7 +555,8 @@
             "line": 61,
             "name": "obter o codigo de resposta \"500\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 7000000
             }
           },
           {
@@ -547,7 +565,8 @@
             "line": 62,
             "name": "sera retornado mensagem no response \"TypeError: Cannot read properties of undefined\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 8000000
             }
           }
         ]
@@ -579,8 +598,8 @@
             "line": 66,
             "name": "que faca a exclusao do recurso por id \"1\"",
             "result": {
-              "status": "failed",
-              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+              "status": "passed",
+              "duration": 228000000
             }
           },
           {
@@ -589,7 +608,8 @@
             "line": 67,
             "name": "obter o codigo de resposta \"200\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 13000000
             }
           },
           {
@@ -598,7 +618,8 @@
             "line": 68,
             "name": "sera consultado pelo id \"1\" e sera atualizado o recurso \"1\" com sucesso",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 92000000
             }
           }
         ]
@@ -630,8 +651,8 @@
             "line": 73,
             "name": "que faca a exclusao do recurso por id \"2222\"",
             "result": {
-              "status": "failed",
-              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+              "status": "passed",
+              "duration": 223000000
             }
           },
           {
@@ -640,7 +661,8 @@
             "line": 74,
             "name": "obter o codigo de resposta \"200\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 14000000
             }
           }
         ]
@@ -672,8 +694,8 @@
             "line": 80,
             "name": "que faca a exclusao do recurso por id \"11111111111111111111111111111111111111111111111111111111111111\"",
             "result": {
-              "status": "failed",
-              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+              "status": "passed",
+              "duration": 219000000
             }
           },
           {
@@ -682,7 +704,8 @@
             "line": 81,
             "name": "obter o codigo de resposta \"200\"",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 15000000
             }
           }
         ]
