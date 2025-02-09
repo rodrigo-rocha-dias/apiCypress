@@ -1,6 +1,5 @@
 const { defineConfig } = require('cypress');
 const cucumber = require('cypress-cucumber-preprocessor').default;
-const cypressGrep = require('cypress-grep/src/plugin');
 
 module.exports = defineConfig({
   viewportWidth: 550,
@@ -18,7 +17,6 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       on('file:preprocessor', cucumber());
-      cypressGrep(on, config);
       return config;
     },
     specPattern: 'cypress/e2e/**/*.feature',
@@ -28,9 +26,5 @@ module.exports = defineConfig({
     outputFolder: 'cypress/reports/cucumber-json',
     filePrefix: '',
     fileSuffix: '.json'
-  },
-  env: {
-    grep: '',
-    grepFilterSpecs: true
-  }  
+  }
 });
