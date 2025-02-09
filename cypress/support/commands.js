@@ -7,7 +7,7 @@ Cypress.Commands.add("getBaseUrl", () => {
         const baseUrl = config.parceiro[parceiro].ambiente[ambiente].recursos.baseUrl;
         return baseUrl;
       } else {
-        throw new Error(`🚨 Configuração não encontrada para parceiro: '${parceiro}' e ambiente: '${ambiente}'`);
+        throw new Error(`Configuração não encontrada para parceiro: '${parceiro}' e ambiente: '${ambiente}'`);
       }
     });
   });

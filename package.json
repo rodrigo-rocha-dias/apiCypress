@@ -9,7 +9,8 @@
     "test_cypress:regressivo": "npx cypress run --env grepTags='@regressivo'",
     "pretest": "rm -rf cypress/reports",
     "test": "cypress run",
-    "posttest": "node cypress/reports/cucumber-html-report.js"
+    "posttest": "node cypress/reports/cucumber-html-report.js",
+    "cypress:run:tags": "cypress run --config-file cypress.config.js --env parceiro=$env:parceiro,ambiente=$env:ambiente,grep=@recursos"
   },
   "devDependencies": {
     "cucumber": "^6.0.0",

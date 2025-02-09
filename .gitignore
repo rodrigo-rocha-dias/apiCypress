@@ -38,7 +38,6 @@ cypress.meta.json
 cypress/logs/
 cypress/videos/*
 cypress/screenshots/*
-cypress/integration/_generated/*
 cypress/data/migration/generated/*.csv
 cypress/fixtures/example.json
 cypress/build/*
@@ -56,3 +55,6 @@ cypress/logs/*
 cypress/logs/.json
 
 !cypress/cucumber-html-report.js
+cypress/screenshots/*.png
+cypress/screenshots/*.jpg
+cypress/screenshots/*.jpeg

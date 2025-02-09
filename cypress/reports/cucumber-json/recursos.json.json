@@ -1,5 +1,6 @@
 [
   {
+    "description": "    Contexto:\n    Este teste verifica se os recursos podem ser consultados e atualizados corretamente utilizando a API JSONPlaceholder.\n  \n    Cenários testados:\n    1. Criar\n    2. Consultar por ID\n    3. Atualizar por ID\n    4. Excluir por ID",
     "keyword": "Feature",
     "name": "Placeholder - Recursos",
     "line": 1,
@@ -35,8 +36,8 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\"",
             "result": {
               "status": "failed",
-              "duration": 832000000,
-              "error_message": "CypressError: `cy.request()` failed trying to load:\n\nhttps://prd.jsonplaceholder.typicode.com/posts\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://prd.jsonplaceholder.typicode.com/posts\n\n-----------------------------------------------------------\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:132627:70)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:4173:37)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:58561/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:58561/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:58561/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:58561/__cypress/runner/cypress_runner.js:1667:18)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:2362:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:58561/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (http://localhost:58561/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (http://localhost:58561/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (http://localhost:58561/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (http://localhost:58561/__cypress/runner/cypress_runner.js:162586:53)\n    at $Cypress.action (http://localhost:58561/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (http://localhost:58561/__cypress/runner/cypress_runner.js:145168:13)\n    at next (http://localhost:58561/__cypress/runner/cypress_runner.js:154953:10)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:154997:5)\n    at timeslice (http://localhost:58561/__cypress/runner/cypress_runner.js:145508:27)\n\nFrom Node.js Internals:\n  RequestError: Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n      at new d (<embedded>:227:431741)\n      at ee.callback (<embedded>:227:437742)\n      at e.callback.s.callback [as _callback] (<embedded>:227:437188)\n      at s._callback.s.callback.s.callback (<embedded>:290:100275)\n      at ee.emit (node:events:518:28)\n      at ee.onRequestError (<embedded>:290:109217)\n      at ClientRequest.emit (node:events:530:35)\n      at emitErrorEvent (node:_http_client:101:11)\n      at TLSSocket.socketErrorListener (node:_http_client:504:5)\n      at TLSSocket.emit (node:events:518:28)\n      at emitErrorNT (node:internal/streams/destroy:169:8)\n      at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+              "duration": 678000000,
+              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
             }
           },
           {
@@ -87,7 +88,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\"",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.request()` failed trying to load:\n\nhttps://prd.jsonplaceholder.typicode.com/posts\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://prd.jsonplaceholder.typicode.com/posts\n\n-----------------------------------------------------------\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:132627:70)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:4173:37)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:58561/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:58561/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:58561/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:58561/__cypress/runner/cypress_runner.js:1667:18)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:2362:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:58561/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (http://localhost:58561/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (http://localhost:58561/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (http://localhost:58561/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (http://localhost:58561/__cypress/runner/cypress_runner.js:162586:53)\n    at $Cypress.action (http://localhost:58561/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (http://localhost:58561/__cypress/runner/cypress_runner.js:145168:13)\n    at next (http://localhost:58561/__cypress/runner/cypress_runner.js:154953:10)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:154997:5)\n    at timeslice (http://localhost:58561/__cypress/runner/cypress_runner.js:145508:27)\n\nFrom Node.js Internals:\n  RequestError: Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n      at new d (<embedded>:227:431741)\n      at ee.callback (<embedded>:227:437742)\n      at e.callback.s.callback [as _callback] (<embedded>:227:437188)\n      at s._callback.s.callback.s.callback (<embedded>:290:100275)\n      at ee.emit (node:events:518:28)\n      at ee.onRequestError (<embedded>:290:109217)\n      at ClientRequest.emit (node:events:530:35)\n      at emitErrorEvent (node:_http_client:101:11)\n      at TLSSocket.socketErrorListener (node:_http_client:504:5)\n      at TLSSocket.emit (node:events:518:28)\n      at emitErrorNT (node:internal/streams/destroy:169:8)\n      at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
             }
           },
           {
@@ -138,7 +139,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 3\" corpo \"\" e usuarioId \"3\"",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.request()` failed trying to load:\n\nhttps://prd.jsonplaceholder.typicode.com/posts\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://prd.jsonplaceholder.typicode.com/posts\n\n-----------------------------------------------------------\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:132627:70)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:4173:37)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:58561/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:58561/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:58561/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:58561/__cypress/runner/cypress_runner.js:1667:18)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:2362:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:58561/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (http://localhost:58561/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (http://localhost:58561/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (http://localhost:58561/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (http://localhost:58561/__cypress/runner/cypress_runner.js:162586:53)\n    at $Cypress.action (http://localhost:58561/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (http://localhost:58561/__cypress/runner/cypress_runner.js:145168:13)\n    at next (http://localhost:58561/__cypress/runner/cypress_runner.js:154953:10)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:154997:5)\n    at timeslice (http://localhost:58561/__cypress/runner/cypress_runner.js:145508:27)\n\nFrom Node.js Internals:\n  RequestError: Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n      at new d (<embedded>:227:431741)\n      at ee.callback (<embedded>:227:437742)\n      at e.callback.s.callback [as _callback] (<embedded>:227:437188)\n      at s._callback.s.callback.s.callback (<embedded>:290:100275)\n      at ee.emit (node:events:518:28)\n      at ee.onRequestError (<embedded>:290:109217)\n      at ClientRequest.emit (node:events:530:35)\n      at emitErrorEvent (node:_http_client:101:11)\n      at TLSSocket.socketErrorListener (node:_http_client:504:5)\n      at TLSSocket.emit (node:events:518:28)\n      at emitErrorNT (node:internal/streams/destroy:169:8)\n      at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
             }
           },
           {
@@ -189,7 +190,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\"",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.request()` failed trying to load:\n\nhttps://prd.jsonplaceholder.typicode.com/posts\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://prd.jsonplaceholder.typicode.com/posts\n\n-----------------------------------------------------------\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:132627:70)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:4173:37)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:58561/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:58561/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:58561/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:58561/__cypress/runner/cypress_runner.js:1667:18)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:2362:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:58561/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (http://localhost:58561/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (http://localhost:58561/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (http://localhost:58561/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (http://localhost:58561/__cypress/runner/cypress_runner.js:162586:53)\n    at $Cypress.action (http://localhost:58561/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (http://localhost:58561/__cypress/runner/cypress_runner.js:145168:13)\n    at next (http://localhost:58561/__cypress/runner/cypress_runner.js:154953:10)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:154997:5)\n    at timeslice (http://localhost:58561/__cypress/runner/cypress_runner.js:145508:27)\n\nFrom Node.js Internals:\n  RequestError: Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n      at new d (<embedded>:227:431741)\n      at ee.callback (<embedded>:227:437742)\n      at e.callback.s.callback [as _callback] (<embedded>:227:437188)\n      at s._callback.s.callback.s.callback (<embedded>:290:100275)\n      at ee.emit (node:events:518:28)\n      at ee.onRequestError (<embedded>:290:109217)\n      at ClientRequest.emit (node:events:530:35)\n      at emitErrorEvent (node:_http_client:101:11)\n      at TLSSocket.socketErrorListener (node:_http_client:504:5)\n      at TLSSocket.emit (node:events:518:28)\n      at emitErrorNT (node:internal/streams/destroy:169:8)\n      at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
             }
           },
           {
@@ -240,7 +241,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\"",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.request()` failed trying to load:\n\nhttps://prd.jsonplaceholder.typicode.com/posts\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://prd.jsonplaceholder.typicode.com/posts\n\n-----------------------------------------------------------\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:132627:70)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:4173:37)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:58561/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:58561/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:58561/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:58561/__cypress/runner/cypress_runner.js:1667:18)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:2362:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:58561/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (http://localhost:58561/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (http://localhost:58561/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (http://localhost:58561/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (http://localhost:58561/__cypress/runner/cypress_runner.js:162586:53)\n    at $Cypress.action (http://localhost:58561/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (http://localhost:58561/__cypress/runner/cypress_runner.js:145168:13)\n    at next (http://localhost:58561/__cypress/runner/cypress_runner.js:154953:10)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:154997:5)\n    at timeslice (http://localhost:58561/__cypress/runner/cypress_runner.js:145508:27)\n\nFrom Node.js Internals:\n  RequestError: Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n      at new d (<embedded>:227:431741)\n      at ee.callback (<embedded>:227:437742)\n      at e.callback.s.callback [as _callback] (<embedded>:227:437188)\n      at s._callback.s.callback.s.callback (<embedded>:290:100275)\n      at ee.emit (node:events:518:28)\n      at ee.onRequestError (<embedded>:290:109217)\n      at ClientRequest.emit (node:events:530:35)\n      at emitErrorEvent (node:_http_client:101:11)\n      at TLSSocket.socketErrorListener (node:_http_client:504:5)\n      at TLSSocket.emit (node:events:518:28)\n      at emitErrorNT (node:internal/streams/destroy:169:8)\n      at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
             }
           },
           {
@@ -291,7 +292,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\"",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.request()` failed trying to load:\n\nhttps://prd.jsonplaceholder.typicode.com/posts\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://prd.jsonplaceholder.typicode.com/posts\n\n-----------------------------------------------------------\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:132627:70)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:4173:37)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:58561/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:58561/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:58561/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:58561/__cypress/runner/cypress_runner.js:1667:18)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:2362:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:58561/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (http://localhost:58561/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (http://localhost:58561/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (http://localhost:58561/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (http://localhost:58561/__cypress/runner/cypress_runner.js:162586:53)\n    at $Cypress.action (http://localhost:58561/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (http://localhost:58561/__cypress/runner/cypress_runner.js:145168:13)\n    at next (http://localhost:58561/__cypress/runner/cypress_runner.js:154953:10)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:154997:5)\n    at timeslice (http://localhost:58561/__cypress/runner/cypress_runner.js:145508:27)\n\nFrom Node.js Internals:\n  RequestError: Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n      at new d (<embedded>:227:431741)\n      at ee.callback (<embedded>:227:437742)\n      at e.callback.s.callback [as _callback] (<embedded>:227:437188)\n      at s._callback.s.callback.s.callback (<embedded>:290:100275)\n      at ee.emit (node:events:518:28)\n      at ee.onRequestError (<embedded>:290:109217)\n      at ClientRequest.emit (node:events:530:35)\n      at emitErrorEvent (node:_http_client:101:11)\n      at TLSSocket.socketErrorListener (node:_http_client:504:5)\n      at TLSSocket.emit (node:events:518:28)\n      at emitErrorNT (node:internal/streams/destroy:169:8)\n      at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
             }
           },
           {
@@ -317,20 +318,20 @@
       {
         "id": "placeholder---recursos;buscar-recurso-por-id",
         "keyword": "Scenario",
-        "line": 27,
+        "line": 41,
         "name": "Buscar recurso por ID",
         "tags": [
           {
             "name": "@regressivo",
-            "line": 26
+            "line": 40
           },
           {
             "name": "@placeholder",
-            "line": 26
+            "line": 40
           },
           {
             "name": "@recursos",
-            "line": 26
+            "line": 40
           }
         ],
         "type": "scenario",
@@ -338,17 +339,101 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 28,
-            "name": "fizer consulta de recurso por id \"1\"",
+            "line": 42,
+            "name": "fizer consulta de recurso por id \"\"",
             "result": {
               "status": "failed",
-              "error_message": "CypressError: `cy.request()` failed trying to load:\n\nhttps://prd.jsonplaceholder.typicode.com/posts/1\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: GET\nURL: https://prd.jsonplaceholder.typicode.com/posts/1\n\n-----------------------------------------------------------\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:132627:70)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:4173:37)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:58561/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:58561/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:58561/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:58561/__cypress/runner/cypress_runner.js:1667:18)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:2362:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:58561/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (http://localhost:58561/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (http://localhost:58561/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (http://localhost:58561/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (http://localhost:58561/__cypress/runner/cypress_runner.js:162586:53)\n    at $Cypress.action (http://localhost:58561/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (http://localhost:58561/__cypress/runner/cypress_runner.js:145168:13)\n    at next (http://localhost:58561/__cypress/runner/cypress_runner.js:154953:10)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:154997:5)\n    at timeslice (http://localhost:58561/__cypress/runner/cypress_runner.js:145508:27)\n\nFrom Node.js Internals:\n  RequestError: Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n      at new d (<embedded>:227:431741)\n      at ee.callback (<embedded>:227:437742)\n      at e.callback.s.callback [as _callback] (<embedded>:227:437188)\n      at s._callback.s.callback.s.callback (<embedded>:290:100275)\n      at ee.emit (node:events:518:28)\n      at ee.onRequestError (<embedded>:290:109217)\n      at ClientRequest.emit (node:events:530:35)\n      at emitErrorEvent (node:_http_client:101:11)\n      at TLSSocket.socketErrorListener (node:_http_client:504:5)\n      at TLSSocket.emit (node:events:518:28)\n      at emitErrorNT (node:internal/streams/destroy:169:8)\n      at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 29,
+            "line": 43,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;buscar-recurso-por-id---falha-(id-inexistente)",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Buscar recurso por ID - Falha (ID inexistente)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 33
+          },
+          {
+            "name": "@placeholder",
+            "line": 33
+          },
+          {
+            "name": "@recursos",
+            "line": 33
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "fizer consulta de recurso por id \"11111111111111111111111111111111\"",
+            "result": {
+              "status": "failed",
+              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "obter o codigo de resposta \"404\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;atualizar-recurso-por-id",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Atualizar recurso por ID",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 46
+          },
+          {
+            "name": "@placeholder",
+            "line": 46
+          },
+          {
+            "name": "@recursos",
+            "line": 46
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 48,
+            "name": "que faca a atualizacao do recurso por id \"1\"",
+            "result": {
+              "status": "failed",
+              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "skipped"
@@ -357,8 +442,245 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 30,
-            "name": "sera retornado consulta do recurso \"1\" com sucesso",
+            "line": 50,
+            "name": "sera consultado pelo id \"1\" e sera atualizado o recurso \"1\" com sucesso",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;atualizar-recurso-por-id---falha-(id-inexistente)",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Atualizar recurso por ID - Falha (ID inexistente)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 52
+          },
+          {
+            "name": "@placeholder",
+            "line": 52
+          },
+          {
+            "name": "@recursos",
+            "line": 52
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "que faca a atualizacao do recurso por id \"2222\"",
+            "result": {
+              "status": "failed",
+              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "obter o codigo de resposta \"500\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "sera retornado mensagem no response \"TypeError: Cannot read properties of undefined\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;atualizar-recurso-por-id---falha-(id-inválido)",
+        "keyword": "Scenario",
+        "line": 59,
+        "name": "Atualizar recurso por ID - Falha (ID inválido)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 58
+          },
+          {
+            "name": "@placeholder",
+            "line": 58
+          },
+          {
+            "name": "@recursos",
+            "line": 58
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 60,
+            "name": "que faca a atualizacao do recurso por id \"11111111111111111111111111111111111111111111111111111111111111\"",
+            "result": {
+              "status": "failed",
+              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "obter o codigo de resposta \"500\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "sera retornado mensagem no response \"TypeError: Cannot read properties of undefined\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;excluir-recurso-por-id",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "Excluir recurso por ID",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 64
+          },
+          {
+            "name": "@placeholder",
+            "line": 64
+          },
+          {
+            "name": "@recursos",
+            "line": 64
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 66,
+            "name": "que faca a exclusao do recurso por id \"1\"",
+            "result": {
+              "status": "failed",
+              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "sera consultado pelo id \"1\" e sera atualizado o recurso \"1\" com sucesso",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;excluir-recurso-por-id---falha-(id-inexistente)",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "Excluir recurso por ID - Falha (ID inexistente)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 71
+          },
+          {
+            "name": "@placeholder",
+            "line": 71
+          },
+          {
+            "name": "@recursos",
+            "line": 71
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 73,
+            "name": "que faca a exclusao do recurso por id \"2222\"",
+            "result": {
+              "status": "failed",
+              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;excluir-recurso-por-id---falha-(id-inválido)",
+        "keyword": "Scenario",
+        "line": 79,
+        "name": "Excluir recurso por ID - Falha (ID inválido)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 78
+          },
+          {
+            "name": "@placeholder",
+            "line": 78
+          },
+          {
+            "name": "@recursos",
+            "line": 78
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 80,
+            "name": "que faca a exclusao do recurso por id \"11111111111111111111111111111111111111111111111111111111111111\"",
+            "result": {
+              "status": "failed",
+              "error_message": "Error: Configuração não encontrada para parceiro: 'placeholder ambiente=hml grepTags=@recursos' e ambiente: 'hml'\n    at Context.eval (cypress/support/commands.js:10:14)\n    at getRet (http://localhost:60127/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:60127/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:60127/__cypress/runner/cypress_runner.js:118289:66)\n    at Context.then (http://localhost:60127/__cypress/runner/cypress_runner.js:118540:21)\n    at wrapped (http://localhost:60127/__cypress/runner/cypress_runner.js:137823:19)\n    at <unknown> (http://localhost:60127/__cypress/runner/cypress_runner.js:143746:15)\n    at tryCatcher (http://localhost:60127/__cypress/runner/cypress_runner.js:1777:23)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 81,
+            "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "skipped"
             }

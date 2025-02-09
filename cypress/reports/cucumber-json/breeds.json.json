@@ -35,7 +35,7 @@
             "name": "fizer uma consulta de todas as racas",
             "result": {
               "status": "passed",
-              "duration": 3218000000
+              "duration": 700000000
             }
           },
           {
@@ -45,7 +45,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 25000000
+              "duration": 32000000
             }
           },
           {
@@ -88,7 +88,7 @@
             "name": "fizer uma consulta de imagem da raca \"affenpinscher\"",
             "result": {
               "status": "passed",
-              "duration": 350000000
+              "duration": 292000000
             }
           },
           {
@@ -98,7 +98,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 19000000
             }
           },
           {
@@ -108,7 +108,7 @@
             "name": "sera retornado imagem da raca \"affenpinscher\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 243000000
+              "duration": 268000000
             }
           }
         ]
@@ -151,7 +151,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 14000000
             }
           },
           {
@@ -161,7 +161,7 @@
             "name": "sera retornado imagem da raca \"african\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 277000000
+              "duration": 306000000
             }
           }
         ]
@@ -194,7 +194,7 @@
             "name": "fizer uma consulta de imagem da raca \"airedale\"",
             "result": {
               "status": "passed",
-              "duration": 291000000
+              "duration": 287000000
             }
           },
           {
@@ -204,7 +204,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 9000000
             }
           },
           {
@@ -214,7 +214,7 @@
             "name": "sera retornado imagem da raca \"airedale\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 304000000
+              "duration": 311000000
             }
           }
         ]
@@ -257,7 +257,7 @@
             "name": "obter o codigo de resposta \"404\"",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 11000000
             }
           },
           {
@@ -300,7 +300,7 @@
             "name": "fizer uma consulta de racas randomica",
             "result": {
               "status": "passed",
-              "duration": 270000000
+              "duration": 272000000
             }
           },
           {
@@ -310,7 +310,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 13000000
             }
           },
           {
@@ -320,7 +320,7 @@
             "name": "sera retornado consulta randomica com sucesso",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 16000000
             }
           }
         ]

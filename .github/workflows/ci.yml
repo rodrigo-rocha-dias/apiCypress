@@ -11,6 +11,9 @@ on:
 jobs:
   test-api:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./ # Defina o diretório do projeto se necessário
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -21,7 +24,13 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Run API tests
-        run: npx cypress run --component api
+        env:
+          PARCEIRO: ${{ github.event.inputs.parceiro || 'placeholder' }}
+          AMBIENTE: ${{ github.event.inputs.ambiente || 'hml' }}
+        run: |
+          echo "Parceiro: $PARCEIRO"
+          echo "Ambiente: $AMBIENTE"
+          npx cypress run --env parceiro=$PARCEIRO,ambiente=$AMBIENTE

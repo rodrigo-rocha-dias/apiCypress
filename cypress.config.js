@@ -28,5 +28,9 @@ module.exports = defineConfig({
     outputFolder: 'cypress/reports/cucumber-json',
     filePrefix: '',
     fileSuffix: '.json'
-  }
+  },
+  env: {
+    grep: '',
+    grepFilterSpecs: true
+  }  
 });
