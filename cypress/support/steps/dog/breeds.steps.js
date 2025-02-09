@@ -1,5 +1,5 @@
 /* global Given, Then, When */
-import Breeds from "../services/breeds.api";
+import Breeds from "../../services/dog/breeds.api";
 const breeds = new Breeds();
 
 When('fizer uma consulta de todas as racas', () => {

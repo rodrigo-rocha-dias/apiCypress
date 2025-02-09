@@ -1,25 +1,14 @@
-// ***********************************************
-// This example commands.js shows you how to
-// create various custom commands and overwrite
-// existing commands.
-//
-// For more comprehensive examples of custom
-// commands please read more here:
-// https://on.cypress.io/custom-commands
-// ***********************************************
-//
-//
-// -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+Cypress.Commands.add("getBaseUrl", () => {
+    const parceiro = Cypress.env("parceiro")?.trim() || "placeholder";
+    const ambiente = Cypress.env("ambiente")?.trim() || "hml";
+  
+    return cy.readFile("cypress/config/env.config.json").then((config) => {
+      if (config.parceiro?.[parceiro]?.ambiente?.[ambiente]?.recursos?.baseUrl) {
+        const baseUrl = config.parceiro[parceiro].ambiente[ambiente].recursos.baseUrl;
+        return baseUrl;
+      } else {
+        throw new Error(`🚨 Configuração não encontrada para parceiro: '${parceiro}' e ambiente: '${ambiente}'`);
+      }
+    });
+  });
+  

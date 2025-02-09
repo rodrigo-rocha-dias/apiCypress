@@ -10,20 +10,20 @@
       {
         "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-1)-corpo-(teste-corpo-1)-usuarioid-(1)",
         "keyword": "Scenario",
-        "line": 10,
+        "line": 19,
         "name": "Criar um novo recurso com o titulo (Teste Titulo 1) corpo (Teste Corpo 1) usuarioId (1)",
         "tags": [
           {
             "name": "@regressivo",
-            "line": 3
+            "line": 12
           },
           {
             "name": "@placeholder",
-            "line": 3
+            "line": 12
           },
           {
             "name": "@recursos",
-            "line": 3
+            "line": 12
           }
         ],
         "type": "scenario",
@@ -31,31 +31,30 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 14,
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\"",
             "result": {
-              "status": "passed",
-              "duration": 389000000
+              "status": "failed",
+              "duration": 832000000,
+              "error_message": "CypressError: `cy.request()` failed trying to load:\n\nhttps://prd.jsonplaceholder.typicode.com/posts\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://prd.jsonplaceholder.typicode.com/posts\n\n-----------------------------------------------------------\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:132627:70)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:4173:37)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:58561/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:58561/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:58561/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:58561/__cypress/runner/cypress_runner.js:1667:18)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:2362:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:58561/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (http://localhost:58561/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (http://localhost:58561/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (http://localhost:58561/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (http://localhost:58561/__cypress/runner/cypress_runner.js:162586:53)\n    at $Cypress.action (http://localhost:58561/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (http://localhost:58561/__cypress/runner/cypress_runner.js:145168:13)\n    at next (http://localhost:58561/__cypress/runner/cypress_runner.js:154953:10)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:154997:5)\n    at timeslice (http://localhost:58561/__cypress/runner/cypress_runner.js:145508:27)\n\nFrom Node.js Internals:\n  RequestError: Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n      at new d (<embedded>:227:431741)\n      at ee.callback (<embedded>:227:437742)\n      at e.callback.s.callback [as _callback] (<embedded>:227:437188)\n      at s._callback.s.callback.s.callback (<embedded>:290:100275)\n      at ee.emit (node:events:518:28)\n      at ee.onRequestError (<embedded>:290:109217)\n      at ClientRequest.emit (node:events:530:35)\n      at emitErrorEvent (node:_http_client:101:11)\n      at TLSSocket.socketErrorListener (node:_http_client:504:5)\n      at TLSSocket.emit (node:events:518:28)\n      at emitErrorNT (node:internal/streams/destroy:169:8)\n      at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
+            "line": 15,
             "name": "obter o codigo de resposta \"201\"",
             "result": {
-              "status": "passed",
-              "duration": 49000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 16,
             "name": "sera retornado recurso com titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\" com sucesso",
             "result": {
-              "status": "passed",
-              "duration": 38000000
+              "status": "skipped"
             }
           }
         ]
@@ -63,20 +62,20 @@
       {
         "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-()-corpo-(teste-corpo-2)-usuarioid-(2)",
         "keyword": "Scenario",
-        "line": 11,
+        "line": 20,
         "name": "Criar um novo recurso com o titulo () corpo (Teste Corpo 2) usuarioId (2)",
         "tags": [
           {
             "name": "@regressivo",
-            "line": 3
+            "line": 12
           },
           {
             "name": "@placeholder",
-            "line": 3
+            "line": 12
           },
           {
             "name": "@recursos",
-            "line": 3
+            "line": 12
           }
         ],
         "type": "scenario",
@@ -84,31 +83,29 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 14,
             "name": "que faca a criacao de um novo recurso titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\"",
             "result": {
-              "status": "passed",
-              "duration": 254000000
+              "status": "failed",
+              "error_message": "CypressError: `cy.request()` failed trying to load:\n\nhttps://prd.jsonplaceholder.typicode.com/posts\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://prd.jsonplaceholder.typicode.com/posts\n\n-----------------------------------------------------------\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:132627:70)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:4173:37)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:58561/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:58561/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:58561/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:58561/__cypress/runner/cypress_runner.js:1667:18)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:2362:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:58561/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (http://localhost:58561/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (http://localhost:58561/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (http://localhost:58561/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (http://localhost:58561/__cypress/runner/cypress_runner.js:162586:53)\n    at $Cypress.action (http://localhost:58561/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (http://localhost:58561/__cypress/runner/cypress_runner.js:145168:13)\n    at next (http://localhost:58561/__cypress/runner/cypress_runner.js:154953:10)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:154997:5)\n    at timeslice (http://localhost:58561/__cypress/runner/cypress_runner.js:145508:27)\n\nFrom Node.js Internals:\n  RequestError: Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n      at new d (<embedded>:227:431741)\n      at ee.callback (<embedded>:227:437742)\n      at e.callback.s.callback [as _callback] (<embedded>:227:437188)\n      at s._callback.s.callback.s.callback (<embedded>:290:100275)\n      at ee.emit (node:events:518:28)\n      at ee.onRequestError (<embedded>:290:109217)\n      at ClientRequest.emit (node:events:530:35)\n      at emitErrorEvent (node:_http_client:101:11)\n      at TLSSocket.socketErrorListener (node:_http_client:504:5)\n      at TLSSocket.emit (node:events:518:28)\n      at emitErrorNT (node:internal/streams/destroy:169:8)\n      at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
+            "line": 15,
             "name": "obter o codigo de resposta \"201\"",
             "result": {
-              "status": "passed",
-              "duration": 12000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 16,
             "name": "sera retornado recurso com titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\" com sucesso",
             "result": {
-              "status": "passed",
-              "duration": 22000000
+              "status": "skipped"
             }
           }
         ]
@@ -116,20 +113,20 @@
       {
         "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-3)-corpo-()-usuarioid-(3)",
         "keyword": "Scenario",
-        "line": 12,
+        "line": 21,
         "name": "Criar um novo recurso com o titulo (Teste Titulo 3) corpo () usuarioId (3)",
         "tags": [
           {
             "name": "@regressivo",
-            "line": 3
+            "line": 12
           },
           {
             "name": "@placeholder",
-            "line": 3
+            "line": 12
           },
           {
             "name": "@recursos",
-            "line": 3
+            "line": 12
           }
         ],
         "type": "scenario",
@@ -137,31 +134,29 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 14,
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 3\" corpo \"\" e usuarioId \"3\"",
             "result": {
-              "status": "passed",
-              "duration": 213000000
+              "status": "failed",
+              "error_message": "CypressError: `cy.request()` failed trying to load:\n\nhttps://prd.jsonplaceholder.typicode.com/posts\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://prd.jsonplaceholder.typicode.com/posts\n\n-----------------------------------------------------------\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:132627:70)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:4173:37)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:58561/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:58561/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:58561/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:58561/__cypress/runner/cypress_runner.js:1667:18)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:2362:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:58561/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (http://localhost:58561/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (http://localhost:58561/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (http://localhost:58561/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (http://localhost:58561/__cypress/runner/cypress_runner.js:162586:53)\n    at $Cypress.action (http://localhost:58561/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (http://localhost:58561/__cypress/runner/cypress_runner.js:145168:13)\n    at next (http://localhost:58561/__cypress/runner/cypress_runner.js:154953:10)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:154997:5)\n    at timeslice (http://localhost:58561/__cypress/runner/cypress_runner.js:145508:27)\n\nFrom Node.js Internals:\n  RequestError: Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n      at new d (<embedded>:227:431741)\n      at ee.callback (<embedded>:227:437742)\n      at e.callback.s.callback [as _callback] (<embedded>:227:437188)\n      at s._callback.s.callback.s.callback (<embedded>:290:100275)\n      at ee.emit (node:events:518:28)\n      at ee.onRequestError (<embedded>:290:109217)\n      at ClientRequest.emit (node:events:530:35)\n      at emitErrorEvent (node:_http_client:101:11)\n      at TLSSocket.socketErrorListener (node:_http_client:504:5)\n      at TLSSocket.emit (node:events:518:28)\n      at emitErrorNT (node:internal/streams/destroy:169:8)\n      at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
+            "line": 15,
             "name": "obter o codigo de resposta \"201\"",
             "result": {
-              "status": "passed",
-              "duration": 22000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 16,
             "name": "sera retornado recurso com titulo \"Teste Titulo 3\" corpo \"\" e usuarioId \"3\" com sucesso",
             "result": {
-              "status": "passed",
-              "duration": 18000000
+              "status": "skipped"
             }
           }
         ]
@@ -169,20 +164,20 @@
       {
         "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-4)-corpo-(teste-corpo-4)-usuarioid-()",
         "keyword": "Scenario",
-        "line": 13,
+        "line": 22,
         "name": "Criar um novo recurso com o titulo (Teste Titulo 4) corpo (Teste Corpo 4) usuarioId ()",
         "tags": [
           {
             "name": "@regressivo",
-            "line": 3
+            "line": 12
           },
           {
             "name": "@placeholder",
-            "line": 3
+            "line": 12
           },
           {
             "name": "@recursos",
-            "line": 3
+            "line": 12
           }
         ],
         "type": "scenario",
@@ -190,31 +185,29 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 14,
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\"",
             "result": {
-              "status": "passed",
-              "duration": 216000000
+              "status": "failed",
+              "error_message": "CypressError: `cy.request()` failed trying to load:\n\nhttps://prd.jsonplaceholder.typicode.com/posts\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://prd.jsonplaceholder.typicode.com/posts\n\n-----------------------------------------------------------\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:132627:70)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:4173:37)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:58561/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:58561/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:58561/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:58561/__cypress/runner/cypress_runner.js:1667:18)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:2362:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:58561/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (http://localhost:58561/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (http://localhost:58561/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (http://localhost:58561/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (http://localhost:58561/__cypress/runner/cypress_runner.js:162586:53)\n    at $Cypress.action (http://localhost:58561/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (http://localhost:58561/__cypress/runner/cypress_runner.js:145168:13)\n    at next (http://localhost:58561/__cypress/runner/cypress_runner.js:154953:10)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:154997:5)\n    at timeslice (http://localhost:58561/__cypress/runner/cypress_runner.js:145508:27)\n\nFrom Node.js Internals:\n  RequestError: Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n      at new d (<embedded>:227:431741)\n      at ee.callback (<embedded>:227:437742)\n      at e.callback.s.callback [as _callback] (<embedded>:227:437188)\n      at s._callback.s.callback.s.callback (<embedded>:290:100275)\n      at ee.emit (node:events:518:28)\n      at ee.onRequestError (<embedded>:290:109217)\n      at ClientRequest.emit (node:events:530:35)\n      at emitErrorEvent (node:_http_client:101:11)\n      at TLSSocket.socketErrorListener (node:_http_client:504:5)\n      at TLSSocket.emit (node:events:518:28)\n      at emitErrorNT (node:internal/streams/destroy:169:8)\n      at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
+            "line": 15,
             "name": "obter o codigo de resposta \"201\"",
             "result": {
-              "status": "passed",
-              "duration": 25000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 16,
             "name": "sera retornado recurso com titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\" com sucesso",
             "result": {
-              "status": "passed",
-              "duration": 25000000
+              "status": "skipped"
             }
           }
         ]
@@ -222,20 +215,20 @@
       {
         "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-5)-corpo-(teste-corpo-5)-usuarioid-(0)",
         "keyword": "Scenario",
-        "line": 14,
+        "line": 23,
         "name": "Criar um novo recurso com o titulo (Teste Titulo 5) corpo (Teste Corpo 5) usuarioId (0)",
         "tags": [
           {
             "name": "@regressivo",
-            "line": 3
+            "line": 12
           },
           {
             "name": "@placeholder",
-            "line": 3
+            "line": 12
           },
           {
             "name": "@recursos",
-            "line": 3
+            "line": 12
           }
         ],
         "type": "scenario",
@@ -243,31 +236,29 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 14,
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\"",
             "result": {
-              "status": "passed",
-              "duration": 200000000
+              "status": "failed",
+              "error_message": "CypressError: `cy.request()` failed trying to load:\n\nhttps://prd.jsonplaceholder.typicode.com/posts\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://prd.jsonplaceholder.typicode.com/posts\n\n-----------------------------------------------------------\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:132627:70)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:4173:37)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:58561/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:58561/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:58561/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:58561/__cypress/runner/cypress_runner.js:1667:18)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:2362:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:58561/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (http://localhost:58561/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (http://localhost:58561/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (http://localhost:58561/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (http://localhost:58561/__cypress/runner/cypress_runner.js:162586:53)\n    at $Cypress.action (http://localhost:58561/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (http://localhost:58561/__cypress/runner/cypress_runner.js:145168:13)\n    at next (http://localhost:58561/__cypress/runner/cypress_runner.js:154953:10)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:154997:5)\n    at timeslice (http://localhost:58561/__cypress/runner/cypress_runner.js:145508:27)\n\nFrom Node.js Internals:\n  RequestError: Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n      at new d (<embedded>:227:431741)\n      at ee.callback (<embedded>:227:437742)\n      at e.callback.s.callback [as _callback] (<embedded>:227:437188)\n      at s._callback.s.callback.s.callback (<embedded>:290:100275)\n      at ee.emit (node:events:518:28)\n      at ee.onRequestError (<embedded>:290:109217)\n      at ClientRequest.emit (node:events:530:35)\n      at emitErrorEvent (node:_http_client:101:11)\n      at TLSSocket.socketErrorListener (node:_http_client:504:5)\n      at TLSSocket.emit (node:events:518:28)\n      at emitErrorNT (node:internal/streams/destroy:169:8)\n      at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
+            "line": 15,
             "name": "obter o codigo de resposta \"201\"",
             "result": {
-              "status": "passed",
-              "duration": 15000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 16,
             "name": "sera retornado recurso com titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\" com sucesso",
             "result": {
-              "status": "passed",
-              "duration": 20000000
+              "status": "skipped"
             }
           }
         ]
@@ -275,20 +266,20 @@
       {
         "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-6)-corpo-(teste-corpo-6)-usuarioid-(1234567891011121314abc)",
         "keyword": "Scenario",
-        "line": 15,
+        "line": 24,
         "name": "Criar um novo recurso com o titulo (Teste Titulo 6) corpo (Teste Corpo 6) usuarioId (1234567891011121314ABC)",
         "tags": [
           {
             "name": "@regressivo",
-            "line": 3
+            "line": 12
           },
           {
             "name": "@placeholder",
-            "line": 3
+            "line": 12
           },
           {
             "name": "@recursos",
-            "line": 3
+            "line": 12
           }
         ],
         "type": "scenario",
@@ -296,31 +287,29 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 14,
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\"",
             "result": {
-              "status": "passed",
-              "duration": 216000000
+              "status": "failed",
+              "error_message": "CypressError: `cy.request()` failed trying to load:\n\nhttps://prd.jsonplaceholder.typicode.com/posts\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://prd.jsonplaceholder.typicode.com/posts\n\n-----------------------------------------------------------\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:132627:70)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:4173:37)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:58561/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:58561/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:58561/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:58561/__cypress/runner/cypress_runner.js:1667:18)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:2362:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:58561/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (http://localhost:58561/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (http://localhost:58561/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (http://localhost:58561/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (http://localhost:58561/__cypress/runner/cypress_runner.js:162586:53)\n    at $Cypress.action (http://localhost:58561/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (http://localhost:58561/__cypress/runner/cypress_runner.js:145168:13)\n    at next (http://localhost:58561/__cypress/runner/cypress_runner.js:154953:10)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:154997:5)\n    at timeslice (http://localhost:58561/__cypress/runner/cypress_runner.js:145508:27)\n\nFrom Node.js Internals:\n  RequestError: Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n      at new d (<embedded>:227:431741)\n      at ee.callback (<embedded>:227:437742)\n      at e.callback.s.callback [as _callback] (<embedded>:227:437188)\n      at s._callback.s.callback.s.callback (<embedded>:290:100275)\n      at ee.emit (node:events:518:28)\n      at ee.onRequestError (<embedded>:290:109217)\n      at ClientRequest.emit (node:events:530:35)\n      at emitErrorEvent (node:_http_client:101:11)\n      at TLSSocket.socketErrorListener (node:_http_client:504:5)\n      at TLSSocket.emit (node:events:518:28)\n      at emitErrorNT (node:internal/streams/destroy:169:8)\n      at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 6,
+            "line": 15,
             "name": "obter o codigo de resposta \"201\"",
             "result": {
-              "status": "passed",
-              "duration": 12000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 7,
+            "line": 16,
             "name": "sera retornado recurso com titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\" com sucesso",
             "result": {
-              "status": "passed",
-              "duration": 18000000
+              "status": "skipped"
             }
           }
         ]
@@ -328,20 +317,20 @@
       {
         "id": "placeholder---recursos;buscar-recurso-por-id",
         "keyword": "Scenario",
-        "line": 32,
+        "line": 27,
         "name": "Buscar recurso por ID",
         "tags": [
           {
             "name": "@regressivo",
-            "line": 31
+            "line": 26
           },
           {
             "name": "@placeholder",
-            "line": 31
+            "line": 26
           },
           {
             "name": "@recursos",
-            "line": 31
+            "line": 26
           }
         ],
         "type": "scenario",
@@ -349,64 +338,29 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 33,
-            "name": "fizer consulta de recurso por id \"\"",
+            "line": 28,
+            "name": "fizer consulta de recurso por id \"1\"",
             "result": {
-              "status": "passed",
-              "duration": 129000000
+              "status": "failed",
+              "error_message": "CypressError: `cy.request()` failed trying to load:\n\nhttps://prd.jsonplaceholder.typicode.com/posts/1\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: GET\nURL: https://prd.jsonplaceholder.typicode.com/posts/1\n\n-----------------------------------------------------------\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:132627:70)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:4173:37)\n    at tryCatcher (http://localhost:58561/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:58561/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:58561/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:58561/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:58561/__cypress/runner/cypress_runner.js:1667:18)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:2362:25)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (http://localhost:58561/__cypress/runner/cypress_runner.js:3456:19)\n    at Promise._then (http://localhost:58561/__cypress/runner/cypress_runner.js:1209:17)\n    at Promise._passThrough (http://localhost:58561/__cypress/runner/cypress_runner.js:4080:17)\n    at Promise.lastly.Promise.finally (http://localhost:58561/__cypress/runner/cypress_runner.js:4089:17)\n    at Object.onRunnableRun (http://localhost:58561/__cypress/runner/cypress_runner.js:162586:53)\n    at $Cypress.action (http://localhost:58561/__cypress/runner/cypress_runner.js:41540:28)\n    at Runnable.run (http://localhost:58561/__cypress/runner/cypress_runner.js:145168:13)\n    at next (http://localhost:58561/__cypress/runner/cypress_runner.js:154953:10)\n    at <unknown> (http://localhost:58561/__cypress/runner/cypress_runner.js:154997:5)\n    at timeslice (http://localhost:58561/__cypress/runner/cypress_runner.js:145508:27)\n\nFrom Node.js Internals:\n  RequestError: Error: getaddrinfo ENOTFOUND prd.jsonplaceholder.typicode.com\n      at new d (<embedded>:227:431741)\n      at ee.callback (<embedded>:227:437742)\n      at e.callback.s.callback [as _callback] (<embedded>:227:437188)\n      at s._callback.s.callback.s.callback (<embedded>:290:100275)\n      at ee.emit (node:events:518:28)\n      at ee.onRequestError (<embedded>:290:109217)\n      at ClientRequest.emit (node:events:530:35)\n      at emitErrorEvent (node:_http_client:101:11)\n      at TLSSocket.socketErrorListener (node:_http_client:504:5)\n      at TLSSocket.emit (node:events:518:28)\n      at emitErrorNT (node:internal/streams/destroy:169:8)\n      at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 34,
+            "line": 29,
             "name": "obter o codigo de resposta \"200\"",
             "result": {
-              "status": "passed",
-              "duration": 9000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "placeholder---recursos;buscar-recurso-por-id---falha-(id-inexistente)",
-        "keyword": "Scenario",
-        "line": 25,
-        "name": "Buscar recurso por ID - Falha (ID inexistente)",
-        "tags": [
-          {
-            "name": "@regressivo",
-            "line": 24
-          },
-          {
-            "name": "@placeholder",
-            "line": 24
-          },
-          {
-            "name": "@recursos",
-            "line": 24
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 26,
-            "name": "fizer consulta de recurso por id \"11111111111111111111111111111111\"",
-            "result": {
-              "status": "passed",
-              "duration": 80000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "line": 27,
-            "name": "obter o codigo de resposta \"404\"",
+            "keyword": "Then ",
+            "line": 30,
+            "name": "sera retornado consulta do recurso \"1\" com sucesso",
             "result": {
-              "status": "passed",
-              "duration": 8000000
+              "status": "skipped"
             }
           }
         ]
