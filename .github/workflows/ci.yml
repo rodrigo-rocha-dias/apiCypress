@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: Cypress Tests
 
 on:
   push:
@@ -9,33 +9,34 @@ on:
       - main
 
 jobs:
-  test-api:
+  cypress:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./ # Defina o diretório do projeto se necessário
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
-          node-version: 18
+          node-version: '14'
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Fix Cypress permissions
-        run: |
-          npx cypress install
-          chmod +x node_modules/.bin/cypress
+      - name: Cypress install
+        run: npx cypress install
 
-      - name: Run API tests
+      - name: Run Cypress tests
+        run: npm run cypress:run:tags
         env:
-          PARCEIRO: ${{ github.event.inputs.parceiro || 'placeholder' }}
-          AMBIENTE: ${{ github.event.inputs.ambiente || 'hml' }}
-        run: |
-          echo "Parceiro: $PARCEIRO"
-          echo "Ambiente: $AMBIENTE"
-          npx cypress run --env parceiro=$PARCEIRO,ambiente=$AMBIENTE
+          PARCEIRO: placeholder
+          AMBIENTE: hml
+          grepTags: @recursos
+
+      - name: Upload screenshots on failure
+        uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots
