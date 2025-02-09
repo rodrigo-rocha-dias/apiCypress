@@ -26,6 +26,11 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
+      - name: Fix Cypress permissions
+        run: |
+          npx cypress install
+          chmod +x node_modules/.bin/cypress
+
       - name: Run API tests
         env:
           PARCEIRO: ${{ github.event.inputs.parceiro || 'placeholder' }}
