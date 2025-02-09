@@ -20,14 +20,14 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: npm install --force
 
-      - name: Fix Cypress permissions
-        run: |
-          npx cypress install
-          chmod +x node_modules/.bin/cypress
+      - name: Ensure Cypress is installed
+        run: npx cypress install
 
       - name: Run API tests
         run: |
           echo "Ambiente: hml"
           npx cypress run --env ambiente=hml
+        env:
+          CYPRESS_CACHE_FOLDER: ~/.cache/Cypress
