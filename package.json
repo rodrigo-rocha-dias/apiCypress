@@ -7,9 +7,9 @@
     "cy:run": "cypress run",
     "test_cypress": "cypress run --spec \"**/*.feature\"",
     "test_cypress:regressivo": "npx cypress run --env grepTags='@regressivo'",
-    "pretest": "rm -rf cypress/reports",
+    "pretest": "rimraf cypress/reports",
     "test": "cypress run",
-    "posttest": "node cypress/reports/cucumber-html-report.js",
+    "posttest": "node cypress/utils/cucumber-html-report.js",
     "cypress:run:tags": "cypress run --config-file cypress.config.js --env parceiro=$env:parceiro,ambiente=$env:ambiente,grep=@recursos"
   },
   "devDependencies": {
@@ -17,8 +17,9 @@
     "cucumber-html-reporter": "^5.5.1",
     "cypress": "^14.0.0",
     "cypress-cucumber-preprocessor": "^4.3.1",
-    "cypress-multi-reporters": "^1.5.0",
+    "cypress-multi-reporters": "^1.6.4",
     "cypress-tags": "^1.2.2",
+    "rimraf": "^6.0.1",
     "typescript": "^5.7.3"
   },
   "cypress-cucumber-preprocessor": {

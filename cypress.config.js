@@ -12,7 +12,12 @@ module.exports = defineConfig({
   screenshotsFolder: 'screenshots',
   reporter: 'cypress-multi-reporters',
   reporterOptions: {
-    configFile: 'reporter-config.json',
+    reporterEnabled: "cucumber-json, spec",
+    cucumberJsonReporterOptions: {
+      jsonDir: "cypress/reports/cucumber-json",
+      filePrefix: "",
+      fileSuffix: ".json"
+    }
   },
   e2e: {
     setupNodeEvents(on, config) {

@@ -1,0 +1,715 @@
+[
+  {
+    "description": "    Contexto:\n    Este teste verifica se os recursos podem ser consultados e atualizados corretamente utilizando a API JSONPlaceholder.\n  \n    Cenários testados:\n    1. Criar\n    2. Consultar por ID\n    3. Atualizar por ID\n    4. Excluir por ID",
+    "keyword": "Feature",
+    "name": "Placeholder - Recursos",
+    "line": 1,
+    "id": "placeholder---recursos",
+    "tags": [],
+    "uri": "recursos.feature",
+    "elements": [
+      {
+        "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-1)-corpo-(teste-corpo-1)-usuarioid-(1)",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Criar um novo recurso com o titulo (Teste Titulo 1) corpo (Teste Corpo 1) usuarioId (1)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 12
+          },
+          {
+            "name": "@placeholder",
+            "line": 12
+          },
+          {
+            "name": "@recursos",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\"",
+            "result": {
+              "status": "passed",
+              "duration": 726000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "obter o codigo de resposta \"201\"",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "sera retornado recurso com titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-()-corpo-(teste-corpo-2)-usuarioid-(2)",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Criar um novo recurso com o titulo () corpo (Teste Corpo 2) usuarioId (2)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 12
+          },
+          {
+            "name": "@placeholder",
+            "line": 12
+          },
+          {
+            "name": "@recursos",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que faca a criacao de um novo recurso titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\"",
+            "result": {
+              "status": "passed",
+              "duration": 278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "obter o codigo de resposta \"201\"",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "sera retornado recurso com titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-3)-corpo-()-usuarioid-(3)",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Criar um novo recurso com o titulo (Teste Titulo 3) corpo () usuarioId (3)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 12
+          },
+          {
+            "name": "@placeholder",
+            "line": 12
+          },
+          {
+            "name": "@recursos",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 3\" corpo \"\" e usuarioId \"3\"",
+            "result": {
+              "status": "passed",
+              "duration": 239000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "obter o codigo de resposta \"201\"",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "sera retornado recurso com titulo \"Teste Titulo 3\" corpo \"\" e usuarioId \"3\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-4)-corpo-(teste-corpo-4)-usuarioid-()",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Criar um novo recurso com o titulo (Teste Titulo 4) corpo (Teste Corpo 4) usuarioId ()",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 12
+          },
+          {
+            "name": "@placeholder",
+            "line": 12
+          },
+          {
+            "name": "@recursos",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\"",
+            "result": {
+              "status": "passed",
+              "duration": 224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "obter o codigo de resposta \"201\"",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "sera retornado recurso com titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-5)-corpo-(teste-corpo-5)-usuarioid-(0)",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Criar um novo recurso com o titulo (Teste Titulo 5) corpo (Teste Corpo 5) usuarioId (0)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 12
+          },
+          {
+            "name": "@placeholder",
+            "line": 12
+          },
+          {
+            "name": "@recursos",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\"",
+            "result": {
+              "status": "passed",
+              "duration": 227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "obter o codigo de resposta \"201\"",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "sera retornado recurso com titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;criar-um-novo-recurso-com-o-titulo-(teste-titulo-6)-corpo-(teste-corpo-6)-usuarioid-(1234567891011121314abc)",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Criar um novo recurso com o titulo (Teste Titulo 6) corpo (Teste Corpo 6) usuarioId (1234567891011121314ABC)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 12
+          },
+          {
+            "name": "@placeholder",
+            "line": 12
+          },
+          {
+            "name": "@recursos",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\"",
+            "result": {
+              "status": "passed",
+              "duration": 570000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "obter o codigo de resposta \"201\"",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "sera retornado recurso com titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;buscar-recurso-por-id",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Buscar recurso por ID",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 40
+          },
+          {
+            "name": "@placeholder",
+            "line": 40
+          },
+          {
+            "name": "@recursos",
+            "line": 40
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "fizer consulta de recurso por id \"\"",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;buscar-recurso-por-id---falha-(id-inexistente)",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Buscar recurso por ID - Falha (ID inexistente)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 33
+          },
+          {
+            "name": "@placeholder",
+            "line": 33
+          },
+          {
+            "name": "@recursos",
+            "line": 33
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 35,
+            "name": "fizer consulta de recurso por id \"11111111111111111111111111111111\"",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "obter o codigo de resposta \"404\"",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;atualizar-recurso-por-id",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Atualizar recurso por ID",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 46
+          },
+          {
+            "name": "@placeholder",
+            "line": 46
+          },
+          {
+            "name": "@recursos",
+            "line": 46
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 48,
+            "name": "que faca a atualizacao do recurso por id \"1\"",
+            "result": {
+              "status": "passed",
+              "duration": 235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "sera consultado pelo id \"1\" e sera atualizado o recurso \"1\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;atualizar-recurso-por-id---falha-(id-inexistente)",
+        "keyword": "Scenario",
+        "line": 53,
+        "name": "Atualizar recurso por ID - Falha (ID inexistente)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 52
+          },
+          {
+            "name": "@placeholder",
+            "line": 52
+          },
+          {
+            "name": "@recursos",
+            "line": 52
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 54,
+            "name": "que faca a atualizacao do recurso por id \"2222\"",
+            "result": {
+              "status": "passed",
+              "duration": 230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "obter o codigo de resposta \"500\"",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "sera retornado mensagem no response \"TypeError: Cannot read properties of undefined\"",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;atualizar-recurso-por-id---falha-(id-inválido)",
+        "keyword": "Scenario",
+        "line": 59,
+        "name": "Atualizar recurso por ID - Falha (ID inválido)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 58
+          },
+          {
+            "name": "@placeholder",
+            "line": 58
+          },
+          {
+            "name": "@recursos",
+            "line": 58
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 60,
+            "name": "que faca a atualizacao do recurso por id \"11111111111111111111111111111111111111111111111111111111111111\"",
+            "result": {
+              "status": "passed",
+              "duration": 225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "obter o codigo de resposta \"500\"",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "sera retornado mensagem no response \"TypeError: Cannot read properties of undefined\"",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;excluir-recurso-por-id",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "Excluir recurso por ID",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 64
+          },
+          {
+            "name": "@placeholder",
+            "line": 64
+          },
+          {
+            "name": "@recursos",
+            "line": 64
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 66,
+            "name": "que faca a exclusao do recurso por id \"1\"",
+            "result": {
+              "status": "passed",
+              "duration": 273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "sera consultado pelo id \"1\" e sera atualizado o recurso \"1\" com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;excluir-recurso-por-id---falha-(id-inexistente)",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "Excluir recurso por ID - Falha (ID inexistente)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 71
+          },
+          {
+            "name": "@placeholder",
+            "line": 71
+          },
+          {
+            "name": "@recursos",
+            "line": 71
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 73,
+            "name": "que faca a exclusao do recurso por id \"2222\"",
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "placeholder---recursos;excluir-recurso-por-id---falha-(id-inválido)",
+        "keyword": "Scenario",
+        "line": 79,
+        "name": "Excluir recurso por ID - Falha (ID inválido)",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 78
+          },
+          {
+            "name": "@placeholder",
+            "line": 78
+          },
+          {
+            "name": "@recursos",
+            "line": 78
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 80,
+            "name": "que faca a exclusao do recurso por id \"11111111111111111111111111111111111111111111111111111111111111\"",
+            "result": {
+              "status": "passed",
+              "duration": 238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 81,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

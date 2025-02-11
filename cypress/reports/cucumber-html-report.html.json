@@ -36,7 +36,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\"",
             "result": {
               "status": "passed",
-              "duration": 846000000
+              "duration": 726000000
             }
           },
           {
@@ -46,7 +46,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 21000000
             }
           },
           {
@@ -56,7 +56,7 @@
             "name": "sera retornado recurso com titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 21000000
+              "duration": 18000000
             }
           }
         ]
@@ -89,7 +89,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\"",
             "result": {
               "status": "passed",
-              "duration": 293000000
+              "duration": 278000000
             }
           },
           {
@@ -99,7 +99,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 14000000
             }
           },
           {
@@ -109,7 +109,7 @@
             "name": "sera retornado recurso com titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 17000000
             }
           }
         ]
@@ -142,7 +142,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 3\" corpo \"\" e usuarioId \"3\"",
             "result": {
               "status": "passed",
-              "duration": 241000000
+              "duration": 239000000
             }
           },
           {
@@ -152,7 +152,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 5000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "sera retornado recurso com titulo \"Teste Titulo 3\" corpo \"\" e usuarioId \"3\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 11000000
             }
           }
         ]
@@ -195,7 +195,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\"",
             "result": {
               "status": "passed",
-              "duration": 238000000
+              "duration": 224000000
             }
           },
           {
@@ -205,7 +205,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 14000000
             }
           },
           {
@@ -215,7 +215,7 @@
             "name": "sera retornado recurso com titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 18000000
             }
           }
         ]
@@ -248,7 +248,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\"",
             "result": {
               "status": "passed",
-              "duration": 233000000
+              "duration": 227000000
             }
           },
           {
@@ -258,7 +258,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 14000000
             }
           },
           {
@@ -268,7 +268,7 @@
             "name": "sera retornado recurso com titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 15000000
             }
           }
         ]
@@ -301,7 +301,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\"",
             "result": {
               "status": "passed",
-              "duration": 214000000
+              "duration": 570000000
             }
           },
           {
@@ -311,7 +311,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 18000000
             }
           },
           {
@@ -321,7 +321,7 @@
             "name": "sera retornado recurso com titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 20000000
+              "duration": 18000000
             }
           }
         ]
@@ -354,7 +354,7 @@
             "name": "fizer consulta de recurso por id \"\"",
             "result": {
               "status": "passed",
-              "duration": 133000000
+              "duration": 114000000
             }
           },
           {
@@ -397,7 +397,7 @@
             "name": "fizer consulta de recurso por id \"11111111111111111111111111111111\"",
             "result": {
               "status": "passed",
-              "duration": 462000000
+              "duration": 95000000
             }
           },
           {
@@ -407,7 +407,7 @@
             "name": "obter o codigo de resposta \"404\"",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 8000000
             }
           }
         ]
@@ -440,7 +440,7 @@
             "name": "que faca a atualizacao do recurso por id \"1\"",
             "result": {
               "status": "passed",
-              "duration": 225000000
+              "duration": 235000000
             }
           },
           {
@@ -450,7 +450,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 16000000
             }
           },
           {
@@ -460,7 +460,7 @@
             "name": "sera consultado pelo id \"1\" e sera atualizado o recurso \"1\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 80000000
+              "duration": 124000000
             }
           }
         ]
@@ -493,7 +493,7 @@
             "name": "que faca a atualizacao do recurso por id \"2222\"",
             "result": {
               "status": "passed",
-              "duration": 461000000
+              "duration": 230000000
             }
           },
           {
@@ -503,7 +503,7 @@
             "name": "obter o codigo de resposta \"500\"",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 12000000
             }
           },
           {
@@ -513,7 +513,7 @@
             "name": "sera retornado mensagem no response \"TypeError: Cannot read properties of undefined\"",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 8000000
             }
           }
         ]
@@ -546,7 +546,7 @@
             "name": "que faca a atualizacao do recurso por id \"11111111111111111111111111111111111111111111111111111111111111\"",
             "result": {
               "status": "passed",
-              "duration": 464000000
+              "duration": 225000000
             }
           },
           {
@@ -556,7 +556,7 @@
             "name": "obter o codigo de resposta \"500\"",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 11000000
             }
           },
           {
@@ -566,7 +566,7 @@
             "name": "sera retornado mensagem no response \"TypeError: Cannot read properties of undefined\"",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 14000000
             }
           }
         ]
@@ -599,7 +599,7 @@
             "name": "que faca a exclusao do recurso por id \"1\"",
             "result": {
               "status": "passed",
-              "duration": 242000000
+              "duration": 273000000
             }
           },
           {
@@ -609,7 +609,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 15000000
             }
           },
           {
@@ -619,7 +619,7 @@
             "name": "sera consultado pelo id \"1\" e sera atualizado o recurso \"1\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 75000000
             }
           }
         ]
@@ -652,7 +652,7 @@
             "name": "que faca a exclusao do recurso por id \"2222\"",
             "result": {
               "status": "passed",
-              "duration": 237000000
+              "duration": 219000000
             }
           },
           {
@@ -662,7 +662,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 4000000
             }
           }
         ]
@@ -695,7 +695,7 @@
             "name": "que faca a exclusao do recurso por id \"11111111111111111111111111111111111111111111111111111111111111\"",
             "result": {
               "status": "passed",
-              "duration": 224000000
+              "duration": 238000000
             }
           },
           {
@@ -705,7 +705,7 @@
             "name": "obter o codigo de resposta \"200\"",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 5000000
             }
           }
         ]

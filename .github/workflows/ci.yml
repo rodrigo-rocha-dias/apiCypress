@@ -31,4 +31,19 @@ jobs:
           npx cypress verify
 
       - name: Run API tests
-        run: npx cypress run --env ambiente=hml
+        run: npx cypress run --reporter cypress-multi-reporters --reporter-options configFile=reporter-config.json --env ambiente=hml
+
+      - name: Generate Cucumber HTML Report
+        run: node cypress/utils/cucumber-html-report.js
+
+      - name: Upload Cucumber JSON Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-json-report
+          path: cypress/reports/cucumber-json/
+
+      - name: Upload Cucumber HTML Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-html-report
+          path: cypress/reports/cucumber-html-report.html
