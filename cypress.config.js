@@ -24,6 +24,9 @@ module.exports = defineConfig({
       on('file:preprocessor', cucumber());
       return config;
     },
+    env: {
+      snapshotOnly: true
+    },
     specPattern: 'cypress/e2e/**/*.feature',
   },
   cucumberJson: {

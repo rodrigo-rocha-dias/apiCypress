@@ -38,6 +38,7 @@ cypress.meta.json
 cypress/logs/
 cypress/videos/*
 cypress/screenshots/*
+screenshots/*
 cypress/data/migration/generated/*.csv
 cypress/fixtures/example.json
 cypress/build/*

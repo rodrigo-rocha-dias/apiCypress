@@ -1,0 +1,128 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Book Store - Account",
+    "line": 2,
+    "id": "book-store---account",
+    "tags": [
+      {
+        "name": "@demoQa",
+        "line": 1
+      }
+    ],
+    "uri": "account.feature",
+    "elements": [
+      {
+        "id": "book-store---account;criar-usuário---sucesso",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "criar usuário - sucesso",
+        "tags": [
+          {
+            "name": "@demoQa",
+            "line": 1
+          },
+          {
+            "name": "@regressivo",
+            "line": 36
+          },
+          {
+            "name": "@bookStore",
+            "line": 36
+          },
+          {
+            "name": "@account",
+            "line": 36
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "que faca requisicao de criar usuario na book store",
+            "result": {
+              "status": "failed",
+              "duration": 30477000000,
+              "error_message": "CypressError: `cy.request()` timed out waiting `30000ms` for a response from your server.\n\nThe request we sent was:\n\nMethod: POST\nURL: https://demoqa.com/Account/v1/User\n\nNo response was received within the timeout.\n\nhttps://on.cypress.io/request\n    at <unknown> (http://localhost:55547/__cypress/runner/cypress_runner.js:132616:70)\n    at tryCatcher (http://localhost:55547/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:55547/__cypress/runner/cypress_runner.js:4156:41)\n    at tryCatcher (http://localhost:55547/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:55547/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:55547/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:55547/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:55547/__cypress/runner/cypress_runner.js:1667:18)\n    at _drainQueueStep (http://localhost:55547/__cypress/runner/cypress_runner.js:2377:12)\n    at _drainQueue (http://localhost:55547/__cypress/runner/cypress_runner.js:2370:9)\n    at Async._drainQueues (http://localhost:55547/__cypress/runner/cypress_runner.js:2386:5)\n    at Async.drainQueues (http://localhost:55547/__cypress/runner/cypress_runner.js:2256:14)\nFrom Your Spec Code:\n    at RequestManager.performRequest (cypress/utils/requestManager.js:14:14)\n    at Account.criarUsuario (cypress/support/services/demoQa/bookStore/account.api.js:41:26)\n    at Context.eval (cypress/support/steps/demoQa/bookStore/account.step.js:17:12)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n    at getRet (http://localhost:55547/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:55547/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:55547/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:55547/__cypress/runner/cypress_runner.js:118289:66)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "sera criado um usuario e logo apos validacao sera excluido",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "book-store---account;criar-usuário---falha-(usuário-já-existente)",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "criar usuário - falha (usuário já existente)",
+        "tags": [
+          {
+            "name": "@demoQa",
+            "line": 1
+          },
+          {
+            "name": "@regressivo",
+            "line": 42
+          },
+          {
+            "name": "@bookStore",
+            "line": 42
+          },
+          {
+            "name": "@account",
+            "line": 42
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "que faca requisicao de criar usuario na book store",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.request()` timed out waiting `30000ms` for a response from your server.\n\nThe request we sent was:\n\nMethod: POST\nURL: https://demoqa.com/Account/v1/User\n\nNo response was received within the timeout.\n\nhttps://on.cypress.io/request\n    at <unknown> (http://localhost:55547/__cypress/runner/cypress_runner.js:132616:70)\n    at tryCatcher (http://localhost:55547/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (http://localhost:55547/__cypress/runner/cypress_runner.js:4156:41)\n    at tryCatcher (http://localhost:55547/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (http://localhost:55547/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (http://localhost:55547/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (http://localhost:55547/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (http://localhost:55547/__cypress/runner/cypress_runner.js:1667:18)\n    at _drainQueueStep (http://localhost:55547/__cypress/runner/cypress_runner.js:2377:12)\n    at _drainQueue (http://localhost:55547/__cypress/runner/cypress_runner.js:2370:9)\n    at Async._drainQueues (http://localhost:55547/__cypress/runner/cypress_runner.js:2386:5)\n    at Async.drainQueues (http://localhost:55547/__cypress/runner/cypress_runner.js:2256:14)\nFrom Your Spec Code:\n    at RequestManager.performRequest (cypress/utils/requestManager.js:14:14)\n    at Account.criarUsuario (cypress/support/services/demoQa/bookStore/account.api.js:41:26)\n    at Context.eval (cypress/support/steps/demoQa/bookStore/account.step.js:17:12)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n    at getRet (http://localhost:55547/__cypress/runner/cypress_runner.js:118278:20)\n    at tryCatcher (http://localhost:55547/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise.attempt.Promise.try (http://localhost:55547/__cypress/runner/cypress_runner.js:4285:29)\n    at Context.thenFn (http://localhost:55547/__cypress/runner/cypress_runner.js:118289:66)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "obter o codigo de resposta \"200\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "sera retornado resposta no corpo resultado \"User authorization failed.\" e status \"Failed\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

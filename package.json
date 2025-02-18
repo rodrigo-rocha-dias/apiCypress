@@ -13,11 +13,13 @@
     "cypress:run:tags": "cypress run --config-file cypress.config.js --env parceiro=$env:parceiro,ambiente=$env:ambiente,grep=@recursos"
   },
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
     "cucumber": "^6.0.0",
     "cucumber-html-reporter": "^5.5.1",
     "cypress": "^14.0.0",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-multi-reporters": "^1.6.4",
+    "cypress-plugin-api": "^2.11.2",
     "cypress-tags": "^1.2.2",
     "rimraf": "^6.0.1",
     "typescript": "^5.7.3"
