@@ -3,7 +3,7 @@ Feature: Placeholder - Recursos
 
     Contexto:
     Este teste verifica se os recursos podem ser consultados e atualizados corretamente utilizando a API JSONPlaceholder.
-  
+
     Cenários testados:
     1. Criar
     2. Consultar por ID
@@ -25,59 +25,38 @@ Feature: Placeholder - Recursos
         | Teste Titulo 6   | Teste Corpo 6 | 1234567891011121314ABC | 201           | Teste Titulo 6 | Teste Corpo 6 | 1234567891011121314ABC |
 
     @regressivo @recursos
-    Scenario: Buscar recurso por ID
-        Given fizer consulta de recurso por id "1"
-        When obter o codigo de resposta "200"
-        Then sera retornado consulta do recurso "1" com sucesso
+    Scenario Outline: Buscar recurso por ID - "<tipo>"
+        Given fizer consulta de recurso por "<tipo>"
+        Then sera retornado consulta do recurso com sucesso
+        Examples:
+        | tipo         |
+        | sucesso      |
+        | invalido     |
+        | null         |
+        | longo        |
+        | inexistente  |
 
-    # Isso pra mim é um bug, o response veio um array sem nenhuma informação
     @regressivo @recursos
-    Scenario: Buscar recurso por ID - Falha (ID inexistente)
-        Given fizer consulta de recurso por id "11111111111111111111111111111111"
-        When obter o codigo de resposta "404"
+    Scenario Outline: Atualizar recurso por ID - "<tipo>"
+        Given que faca a atualizacao do recurso por "<tipo>"
+        Then sera retornado no response os dados atualizados corretamente ou uma mensagem de erro
+        Examples:
+        | tipo         |
+        | sucesso      |
+        | invalido     |
+        | null         |
+        | longo        |
+        | inexistente  |
+
+    # endpoint aparentemente com erro, deveria me retornar status response de erro e devolveu um 200
+    @regressivo @recursos
+    Scenario Outline: Excluir recurso por ID - "<tipo>"
+        Given que faca a exclusao do recurso por "<tipo>"
         # Then sera retornado consulta do recurso com sucesso
-
-    # Isso pra mim é um bug, o response veio um array sem nenhuma informação do id "" que consultei
-    @regressivo @recursos
-    Scenario: Buscar recurso por ID
-        Given fizer consulta de recurso por id ""
-        When obter o codigo de resposta "200"
-        # Then sera retornado consulta do recurso "1" com sucesso
-
-    @regressivo @recursos
-    Scenario: Atualizar recurso por ID
-        Given que faca a atualizacao do recurso por id "1"
-        When obter o codigo de resposta "200"
-        Then sera consultado pelo id "1" e sera atualizado o recurso "1" com sucesso
-
-    @regressivo @recursos
-    Scenario: Atualizar recurso por ID - Falha (ID inexistente)
-        Given que faca a atualizacao do recurso por id "2222"
-        When obter o codigo de resposta "500"
-        Then sera retornado mensagem no response "TypeError: Cannot read properties of undefined"
-
-    @regressivo @recursos
-    Scenario: Atualizar recurso por ID - Falha (ID inválido)
-        Given que faca a atualizacao do recurso por id "11111111111111111111111111111111111111111111111111111111111111"
-        When obter o codigo de resposta "500"
-        Then sera retornado mensagem no response "TypeError: Cannot read properties of undefined"
-
-    @regressivo @recursos
-    Scenario: Excluir recurso por ID
-        Given que faca a exclusao do recurso por id "1"
-        When obter o codigo de resposta "200"
-        Then sera consultado pelo id "1" e sera atualizado o recurso "1" com sucesso
-
-    # endpoint aparentemente com erro, deveria me retornar status response de erro e devolveu um 200 
-    @regressivo @recursos
-    Scenario: Excluir recurso por ID - Falha (ID inexistente)
-        Given que faca a exclusao do recurso por id "2222"
-        When obter o codigo de resposta "200"
-        # Then sera retornado mensagem no response "TypeError: Cannot read properties of undefined"
-
-    # endpoint aparentemente com erro, deveria me retornar status response de erro e devolveu um 200 
-    @regressivo @recursos
-    Scenario: Excluir recurso por ID - Falha (ID inválido)
-        Given que faca a exclusao do recurso por id "11111111111111111111111111111111111111111111111111111111111111"
-        When obter o codigo de resposta "200"
-        # Then sera retornado mensagem no response "TypeError: Cannot read properties of undefined"
+        Examples:
+        | tipo         |
+        | sucesso      |
+        | invalido     |
+        | null         |
+        | longo        |
+        | inexistente  |

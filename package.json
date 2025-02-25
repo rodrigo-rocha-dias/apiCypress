@@ -32,5 +32,8 @@
       "filePrefix": "",
       "fileSuffix": ".json"
     }
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.5.0"
   }
 }
