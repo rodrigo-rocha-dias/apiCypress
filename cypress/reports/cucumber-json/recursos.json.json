@@ -41,7 +41,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\"",
             "result": {
               "status": "passed",
-              "duration": 531000000
+              "duration": 576000000
             }
           },
           {
@@ -51,7 +51,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 10000000
             }
           },
           {
@@ -61,7 +61,7 @@
             "name": "sera retornado recurso com titulo \"Teste Titulo 1\" corpo \"Teste Corpo 1\" e usuarioId \"1\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 25000000
+              "duration": 20000000
             }
           }
         ]
@@ -94,7 +94,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\"",
             "result": {
               "status": "passed",
-              "duration": 266000000
+              "duration": 255000000
             }
           },
           {
@@ -104,7 +104,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 6000000
             }
           },
           {
@@ -114,7 +114,7 @@
             "name": "sera retornado recurso com titulo \"\" corpo \"Teste Corpo 2\" e usuarioId \"2\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 16000000
             }
           }
         ]
@@ -147,7 +147,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 3\" corpo \"\" e usuarioId \"3\"",
             "result": {
               "status": "passed",
-              "duration": 241000000
+              "duration": 253000000
             }
           },
           {
@@ -157,7 +157,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 5000000
             }
           },
           {
@@ -167,7 +167,7 @@
             "name": "sera retornado recurso com titulo \"Teste Titulo 3\" corpo \"\" e usuarioId \"3\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 18000000
             }
           }
         ]
@@ -200,7 +200,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\"",
             "result": {
               "status": "passed",
-              "duration": 224000000
+              "duration": 228000000
             }
           },
           {
@@ -210,7 +210,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 6000000
             }
           },
           {
@@ -220,7 +220,7 @@
             "name": "sera retornado recurso com titulo \"Teste Titulo 4\" corpo \"Teste Corpo 4\" e usuarioId \"\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 20000000
+              "duration": 14000000
             }
           }
         ]
@@ -253,7 +253,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\"",
             "result": {
               "status": "passed",
-              "duration": 229000000
+              "duration": 215000000
             }
           },
           {
@@ -263,7 +263,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 5000000
             }
           },
           {
@@ -273,7 +273,7 @@
             "name": "sera retornado recurso com titulo \"Teste Titulo 5\" corpo \"Teste Corpo 5\" e usuarioId \"0\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 20000000
+              "duration": 14000000
             }
           }
         ]
@@ -306,7 +306,7 @@
             "name": "que faca a criacao de um novo recurso titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\"",
             "result": {
               "status": "passed",
-              "duration": 218000000
+              "duration": 225000000
             }
           },
           {
@@ -316,7 +316,7 @@
             "name": "obter o codigo de resposta \"201\"",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 5000000
             }
           },
           {
@@ -326,7 +326,7 @@
             "name": "sera retornado recurso com titulo \"Teste Titulo 6\" corpo \"Teste Corpo 6\" e usuarioId \"1234567891011121314ABC\" com sucesso",
             "result": {
               "status": "passed",
-              "duration": 20000000
+              "duration": 16000000
             }
           }
         ]
@@ -359,7 +359,7 @@
             "name": "fizer consulta de recurso por \"sucesso\"",
             "result": {
               "status": "passed",
-              "duration": 104000000
+              "duration": 107000000
             }
           },
           {
@@ -369,7 +369,7 @@
             "name": "sera retornado consulta do recurso com sucesso",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 14000000
             }
           }
         ]
@@ -402,7 +402,7 @@
             "name": "fizer consulta de recurso por \"invalido\"",
             "result": {
               "status": "passed",
-              "duration": 97000000
+              "duration": 96000000
             }
           },
           {
@@ -412,7 +412,7 @@
             "name": "sera retornado consulta do recurso com sucesso",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 16000000
             }
           }
         ]
@@ -445,7 +445,7 @@
             "name": "fizer consulta de recurso por \"null\"",
             "result": {
               "status": "passed",
-              "duration": 102000000
+              "duration": 107000000
             }
           },
           {
@@ -455,7 +455,7 @@
             "name": "sera retornado consulta do recurso com sucesso",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 12000000
             }
           }
         ]
@@ -488,7 +488,7 @@
             "name": "fizer consulta de recurso por \"longo\"",
             "result": {
               "status": "passed",
-              "duration": 115000000
+              "duration": 121000000
             }
           },
           {
@@ -498,7 +498,7 @@
             "name": "sera retornado consulta do recurso com sucesso",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 12000000
             }
           }
         ]
@@ -531,7 +531,7 @@
             "name": "fizer consulta de recurso por \"inexistente\"",
             "result": {
               "status": "passed",
-              "duration": 89000000
+              "duration": 143000000
             }
           },
           {
@@ -541,7 +541,7 @@
             "name": "sera retornado consulta do recurso com sucesso",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 11000000
             }
           }
         ]
@@ -574,7 +574,7 @@
             "name": "que faca a atualizacao do recurso por \"sucesso\"",
             "result": {
               "status": "passed",
-              "duration": 235000000
+              "duration": 227000000
             }
           },
           {
@@ -584,7 +584,7 @@
             "name": "sera retornado no response os dados atualizados corretamente ou uma mensagem de erro",
             "result": {
               "status": "passed",
-              "duration": 49000000
+              "duration": 16000000
             }
           }
         ]
@@ -617,7 +617,7 @@
             "name": "que faca a atualizacao do recurso por \"invalido\"",
             "result": {
               "status": "passed",
-              "duration": 461000000
+              "duration": 443000000
             }
           },
           {
@@ -627,7 +627,7 @@
             "name": "sera retornado no response os dados atualizados corretamente ou uma mensagem de erro",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 8000000
             }
           }
         ]
@@ -660,7 +660,7 @@
             "name": "que faca a atualizacao do recurso por \"null\"",
             "result": {
               "status": "passed",
-              "duration": 506000000
+              "duration": 444000000
             }
           },
           {
@@ -670,7 +670,7 @@
             "name": "sera retornado no response os dados atualizados corretamente ou uma mensagem de erro",
             "result": {
               "status": "passed",
-              "duration": 28000000
+              "duration": 16000000
             }
           }
         ]
@@ -713,7 +713,7 @@
             "name": "sera retornado no response os dados atualizados corretamente ou uma mensagem de erro",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 17000000
             }
           }
         ]
@@ -746,7 +746,7 @@
             "name": "que faca a atualizacao do recurso por \"inexistente\"",
             "result": {
               "status": "passed",
-              "duration": 214000000
+              "duration": 457000000
             }
           },
           {
@@ -756,7 +756,7 @@
             "name": "sera retornado no response os dados atualizados corretamente ou uma mensagem de erro",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 16000000
             }
           }
         ]
@@ -789,7 +789,7 @@
             "name": "que faca a exclusao do recurso por \"sucesso\"",
             "result": {
               "status": "passed",
-              "duration": 244000000
+              "duration": 218000000
             }
           }
         ]
@@ -822,7 +822,7 @@
             "name": "que faca a exclusao do recurso por \"invalido\"",
             "result": {
               "status": "passed",
-              "duration": 224000000
+              "duration": 230000000
             }
           }
         ]
@@ -855,7 +855,7 @@
             "name": "que faca a exclusao do recurso por \"null\"",
             "result": {
               "status": "passed",
-              "duration": 233000000
+              "duration": 232000000
             }
           }
         ]
@@ -888,7 +888,7 @@
             "name": "que faca a exclusao do recurso por \"longo\"",
             "result": {
               "status": "passed",
-              "duration": 249000000
+              "duration": 246000000
             }
           }
         ]
@@ -921,7 +921,7 @@
             "name": "que faca a exclusao do recurso por \"inexistente\"",
             "result": {
               "status": "passed",
-              "duration": 234000000
+              "duration": 248000000
             }
           }
         ]
