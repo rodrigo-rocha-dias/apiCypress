@@ -1,0 +1,22 @@
+{
+    "placeOrder": [
+        {
+            "product": "Laptop",
+            "quantity": 1
+        },
+        {
+            "product": "Smartphone",
+            "quantity": 2
+        }
+    ],
+    "updateOrder": [
+        {
+            "orderId": 101,
+            "status": "Shipped"
+        },
+        {
+            "orderId": 102,
+            "status": "Delivered"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://jsonplaceholder.typicode.com",
+    "env": {
+        "global_timeout": 100000,
+        "environment": "HOM"
+    }
+}

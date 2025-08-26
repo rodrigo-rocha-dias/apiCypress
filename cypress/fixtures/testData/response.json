@@ -1,0 +1,42 @@
+{
+    "responseSuccess": [
+        {
+            "statusCode": 200,
+            "status": "",
+            "error": null
+        },
+        {
+            "statusCode": 201,
+            "status": "",
+            "error": null
+        },
+        {
+            "statusCode": 204,
+            "status": "",
+            "error": null
+        }
+    ],
+    "responseError": [
+        {
+            "statusCode": 400,
+            "status": "Bad Request",
+            "error": {
+                "message": "The request could not be understood or was missing required parameters."
+            }
+        },
+        {
+            "statusCode": 404,
+            "status": "Not Found",
+            "error": {
+                "message": "The requested resource was not found."
+            }
+        },
+        {
+            "statusCode": 500,
+            "status": "Internal Server Error",
+            "error": {
+                "message": "An unexpected error occurred on the server."
+            }
+        }
+    ]
+}

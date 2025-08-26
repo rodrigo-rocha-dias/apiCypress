@@ -1,6 +1,5 @@
 /* global Given, Then, When */
-import Recurso from "../../services/placeholder/recurso.api";
-const recurso = new Recurso();
+import RecursoService from "../../../../services/placeholder/recurso.service";
 import { faker } from '@faker-js/faker';
 
 const testCases = {
@@ -10,6 +9,24 @@ const testCases = {
     longo: { id: "11111111111111111111111111111111111111111111111111111111111111", statusEsperado: { get: 404, put: 500 } },
     inexistente: { id: "0000", statusEsperado: { get: 404, put: 500 } }
 }
+
+Given('fizer consulta de recurso por tipo {string}', (tipo) => {
+    cy.fixture('testData/placeholder.json').then((data) => {
+        let id;
+        if (tipo === 'valido') {
+            id = data.placeOrder[0].userId;
+        } else if (tipo === 'invalido') {
+            id = data.placeOrder[1].userId;
+        } else if (tipo === 'null') {
+            id = data.placeOrder[2].userId;
+        }
+        RecursoService.get_recurso(id).then(res => {
+            cy.log('Response: ' + JSON.stringify(res.body))
+            cy.wrap({ res }).as('response')
+        })
+    })
+})
+
 
 Given('que faca a criacao de um novo recurso titulo {string} corpo {string} e usuarioId {string}', (title, bodyRequest, userId) => {
     const dadosCriacao = {
@@ -68,18 +85,13 @@ Then('sera retornado recurso com titulo {string} corpo {string} e usuarioId {str
 })
 
 Then('sera retornado consulta do recurso com sucesso', () => {
-    cy.get('@requestId').then((id) => {
-        cy.get('@expectedStatus').then((statusEsperado) => {
-            cy.get('@responseData').should((response) => {
-                expect(response.status).to.eq(statusEsperado)
-
-                if (statusEsperado === 200) {
-                    expect(response.body.id).to.eq(Number(id))
-                    expect(response.headers).to.have.property('content-type').that.includes('application/json')
-                } else {
-                    expect(response.body).to.be.empty
-                }
-            })
+    cy.fixture('testData/placeholder.json').then((data) => {
+        cy.get('@response').then(({ res }) => {
+            const placeholderIds = data.placeOrder[0];
+            expect(res.body.userId).to.eq(placeholderIds.userId)
+            expect(res.body.id).to.eq(placeholderIds.id)
+            expect(res.body.title).to.eq(placeholderIds.title)
+            expect(res.body.body).to.eq(placeholderIds.body)
         })
     })
 })

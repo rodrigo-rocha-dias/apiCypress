@@ -1,6 +1,7 @@
 import RequestManager from "../utils/requestManager";
 import config from "../config/env.config.json";
 import loginConfig from "../config/env.login.json";
+import { validate } from "jsonschema";
 
 Cypress.Commands.add("authenticationBookStore", (usuario) => {
   const ambiente = Cypress.env("ambiente") || "hml";
@@ -37,5 +38,18 @@ Cypress.Commands.add("authenticationBookStore", (usuario) => {
     Cypress.env("token", newToken);
     Cypress.env("lastUser", usuario);
     cy.log(`Novo token gerado para o usuário: ${usuario}`);
+  })
+})
+
+Cypress.Commands.add('validateSchema', (res, schema) => {
+  cy.fixture(`schemas/${schema}`).as('dataLoader').then((schema) => {
+    const validation = validate(res, schema, { required: true, nestedErrors: true, });
+    let errors = '';
+    if (!validation.valid) {
+      errors += validation.errors.map((err) => {
+        return `\nType error: ${err.name}. Detail: ${err.stack.replace('instance', 'response.body')}. Actual value: ${JSON.stringify(err.instance)}`;
+      })
+    }
+    expect(validation.valid).to.be.equal(true, `SCHEMA VALIDATION ${errors}`)
   })
 })
